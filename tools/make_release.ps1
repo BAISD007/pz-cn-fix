@@ -13,11 +13,13 @@ $here = Split-Path -Parent $MyInvocation.MyCommand.Path
 $root = Split-Path -Parent $here
 if (-not $Out) { $Out = Join-Path $root "dist" }
 
-$py = "python"
-$probe = & $py -c "import sys; sys.path.insert(0, r'$here'); from _common import find_game; print(find_game(quiet=True) or '')" 2>$null
-if ($Game) { $probe = $Game }
-if (-not $probe -or -not (Test-Path (Join-Path $probe "ProjectZomboid64.exe"))) {
-    throw "找不到游戏目录，请用 -Game 指定，例如 -Game 'D:\Steam\steamapps\common\ProjectZomboid'"
+# 游戏目录：优先 -Game，其次读 python 工具写下的缓存
+if (-not $Game) {
+    $cfg = Join-Path $env:USERPROFILE "Zomboid\pz-cn-fix\game.txt"
+    if (Test-Path $cfg) { $Game = (Get-Content $cfg -Raw).Trim() }
+}
+if (-not $Game -or -not (Test-Path (Join-Path $Game "ProjectZomboid64.exe"))) {
+    throw "找不到游戏目录。先运行一次 python tools\build_cn_fonts.py（会自动记录路径），或用 -Game 'D:\...\ProjectZomboid' 指定"
 }
 
 New-Item -ItemType Directory -Force -Path $Out | Out-Null
@@ -25,7 +27,7 @@ $stage = Join-Path $Out "stage\media\fonts"
 Remove-Item (Join-Path $Out "stage") -Recurse -Force -ErrorAction SilentlyContinue
 New-Item -ItemType Directory -Force -Path $stage | Out-Null
 
-$fonts = Join-Path $probe "media\fonts"
+$fonts = Join-Path $Game "media\fonts"
 # 顶层共享档
 Get-ChildItem $fonts -File | Where-Object { $_.Name -like "zomboid*Chinese.*" } |
     ForEach-Object { Copy-Item $_.FullName (Join-Path $stage $_.Name) -Force }
