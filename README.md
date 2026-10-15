@@ -1,5 +1,20 @@
 # pz-cn-fix — Project Zomboid Build 42 简体中文补全 / 中文字体重建
 
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
+[![data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey?style=flat-square)](LICENSE-DATA.md)
+[![platform: Windows](https://img.shields.io/badge/platform-Windows-0078D6?style=flat-square)](#)
+[![python: 3.9+](https://img.shields.io/badge/python-3.9%2B-3776AB?style=flat-square)](#)
+[![Project Zomboid: Build 42](https://img.shields.io/badge/Project%20Zomboid-Build%2042-c0392b?style=flat-square)](#)
+[![translations: 1398 entries](https://img.shields.io/badge/translations-1398%20entries-success?style=flat-square)](#)
+[![glyphs: 22059 × 15 atlases](https://img.shields.io/badge/glyphs-22059%20%C3%97%2015%20atlases-orange?style=flat-square)](#)
+
+[![release](https://img.shields.io/github/v/release/BAISD007/pz-cn-fix?style=flat-square&label=release)](https://github.com/BAISD007/pz-cn-fix/releases/latest)
+[![downloads](https://img.shields.io/github/downloads/BAISD007/pz-cn-fix/total?style=flat-square&label=downloads)](https://github.com/BAISD007/pz-cn-fix/releases)
+[![last commit](https://img.shields.io/github/last-commit/BAISD007/pz-cn-fix?style=flat-square&label=last%20commit)](https://github.com/BAISD007/pz-cn-fix/commits/main)
+[![stars](https://img.shields.io/github/stars/BAISD007/pz-cn-fix?style=flat-square)](https://github.com/BAISD007/pz-cn-fix/stargazers)
+[![issues](https://img.shields.io/github/issues/BAISD007/pz-cn-fix?style=flat-square)](https://github.com/BAISD007/pz-cn-fix/issues)
+![built with](https://img.shields.io/badge/built%20with-DeepSeek%20Harness-4D6BFE?style=flat-square)
+
 > **非官方项目。与 The Indie Stone 无任何关联。仓库内不包含任何游戏原始文件。**
 > Not affiliated with The Indie Stone. This repository contains **no game assets** —
 > only our own translation data and scripts that patch the copy already installed on your PC.
