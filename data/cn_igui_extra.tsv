@@ -1,0 +1,907 @@
+# Project Zomboid Build 42 - Simplified Chinese IG_UI_CN.txt additions
+# key<TAB>translation   (no game content: keys + our own translations only)
+IGUI_AdminPanel_BrushTool	笔刷工具
+IGUI_AdminPanel_Capabilities	权限:
+IGUI_AdminPanel_Color	颜色:
+IGUI_AdminPanel_Description	说明:
+IGUI_AdminPanel_FastMove	快速移动
+IGUI_AdminPanel_FishingCheat	钓鱼作弊模式
+IGUI_AdminPanel_GodMode	上帝模式
+IGUI_AdminPanel_Invincible	无敌
+IGUI_AdminPanel_Invisible	隐形
+IGUI_AdminPanel_ItemList_Add1	添加 1 个
+IGUI_AdminPanel_ItemList_Add2	添加 2 个
+IGUI_AdminPanel_ItemList_Add5	添加 5 个
+IGUI_AdminPanel_ItemList_AddX	批量添加
+IGUI_AdminPanel_ItemList_AddXTitle	批量添加 %1,最多 100 个
+IGUI_AdminPanel_KnowAllRecipes	学会全部配方
+IGUI_AdminPanel_LootTool	战利品工具
+IGUI_AdminPanel_NoClip	穿墙模式
+IGUI_AdminPanel_PVPLogTool	PVP 记录工具
+IGUI_AdminPanel_Role	角色:
+IGUI_AdminPanel_SeeRole	角色
+IGUI_AdminPanel_SeeRoles	角色列表
+IGUI_AdminPanel_SeeUsers	用户列表
+IGUI_AdminPanel_SeeWars	战争列表
+IGUI_AdminPanel_TimedActionInstant	动作瞬间完成
+IGUI_AdminPanel_Tooltip_Capability	所需权限: %1
+IGUI_AdminPanel_Tooltip_FastMove	快速移动: <br> 移动 - 方向键 <br> 上下楼层 - PageUp/PageDown 键
+IGUI_AdminPanel_UnlimitedAmmo	无限弹药
+IGUI_AdminPanel_UnlimitedCarry	无限负重
+IGUI_AdminPanel_UnlimitedEndurance	无限耐力
+IGUI_AdminPanel_ZoneEditor	区域编辑器
+IGUI_AnimalAge_Calf02	0-2 个月
+IGUI_AnimalAge_Calf26	2-6 个月
+IGUI_AnimalAge_Calf612	6-12 个月
+IGUI_AnimalAge_CowCalfRearing	育犊期
+IGUI_AnimalAge_CowGeriatric	老年
+IGUI_AnimalAge_CowMature	成年
+IGUI_AnimalAge_CowYoung	青年
+IGUI_AnimalBreed	品种
+IGUI_AnimalExpert	动物专家
+IGUI_AnimalMeat	%1 %2
+IGUI_AnimalMeat_Beef	牛肉
+IGUI_AnimalMeat_MediumCut	(中等部位)
+IGUI_AnimalMeat_Mutton	羊肉
+IGUI_AnimalMeat_PoorCut	(劣等部位)
+IGUI_AnimalMeat_Pork	猪肉
+IGUI_AnimalMeat_PorkChop	猪排
+IGUI_AnimalMeat_PrimeCut	(上等部位)
+IGUI_AnimalMeat_Rabbit	兔肉
+IGUI_AnimalMeat_Steak	牛排
+IGUI_AnimalMeat_Venison	鹿肉
+IGUI_AnimalTracks_Animal	物种: 
+IGUI_AnimalTracks_Direction	方向
+IGUI_AnimalTracks_Freshness	新鲜度: 
+IGUI_AnimalTracks_Time_12Hours	不到 12 小时
+IGUI_AnimalTracks_Time_24Hours	不到 24 小时
+IGUI_AnimalTracks_Time_2Days	1 到 2 天
+IGUI_AnimalTracks_Time_3Days	2 到 3 天
+IGUI_AnimalTracks_Time_4Days	3 到 4 天
+IGUI_AnimalTracks_Time_5Days	超过 4 天
+IGUI_AnimalTracks_Time_Old	陈旧
+IGUI_AnimalTracks_Time_Recent	较新
+IGUI_AnimalTracks_Time_SomeDays	最近几天
+IGUI_AnimalTracks_Time_VeryRecent	很新
+IGUI_AnimalTracks_Type	类型: 
+IGUI_AnimalTracks_brokentwigs	折断的树枝
+IGUI_AnimalTracks_flattenedherb	压平的植物
+IGUI_AnimalTracks_footstep	动物足迹
+IGUI_AnimalTracks_fur	毛发
+IGUI_AnimalTracks_herbgraze	啃食区
+IGUI_AnimalTracks_poop	粪便
+IGUI_AnimalTrailer_Info	<CENTRE> <SIZE:medium> 动物拖车 <LINE> <LINE> <LEFT> <SIZE:small> 要把动物放进拖车,先把它牵到后门附近,然后右键点击拖车. <LINE> 你抱着的小型动物也可以用同样方法放进去. <LINE> <LINE> 动物可以吃拖车里食物容器中的食物. <LINE> 也可以直接右键点击拖车来喂食或喂水. <LINE> 拖车里有产蛋箱,鸡会在里面下蛋. <LINE> 每辆拖车都有总容量,每只动物会根据自己的种类和体型占用容量. <LINE> 拖车移动时,里面的动物会慢慢积累压力.
+IGUI_AnimalType	类型
+IGUI_AnimalType_Baby	%1的幼崽
+IGUI_AnimalType_Global_chicken	鸡
+IGUI_AnimalType_Global_cow	牛
+IGUI_AnimalType_Global_pig	猪
+IGUI_AnimalType_Global_rabbit	兔
+IGUI_AnimalType_Global_sheep	羊
+IGUI_AnimalType_Global_turkey	火鸡
+IGUI_AnimalType_boar	公猪
+IGUI_AnimalType_buck	公鹿
+IGUI_AnimalType_bull	公牛
+IGUI_AnimalType_chick	雏鸡
+IGUI_AnimalType_cockerel	小公鸡
+IGUI_AnimalType_cow	母牛
+IGUI_AnimalType_cowcalf	牛犊
+IGUI_AnimalType_deerdead	鹿
+IGUI_AnimalType_doe	母鹿
+IGUI_AnimalType_ewe	母羊
+IGUI_AnimalType_fawn	幼鹿
+IGUI_AnimalType_fawndead	幼鹿
+IGUI_AnimalType_gobblers	公火鸡
+IGUI_AnimalType_hen	母鸡
+IGUI_AnimalType_lamb	羔羊
+IGUI_AnimalType_mouse	公鼠
+IGUI_AnimalType_mousefemale	母鼠
+IGUI_AnimalType_mousepups	幼鼠
+IGUI_AnimalType_piglet	仔猪
+IGUI_AnimalType_rabbuck	公兔
+IGUI_AnimalType_rabdoe	母兔
+IGUI_AnimalType_rabkitten	幼兔
+IGUI_AnimalType_raccoon	浣熊
+IGUI_AnimalType_raccoonboar	公浣熊
+IGUI_AnimalType_raccoonkit	幼浣熊
+IGUI_AnimalType_raccoonsow	母浣熊
+IGUI_AnimalType_ram	公羊
+IGUI_AnimalType_rat	公鼠
+IGUI_AnimalType_ratbaby	幼鼠
+IGUI_AnimalType_ratfemale	母鼠
+IGUI_AnimalType_sow	母猪
+IGUI_AnimalType_turkeyhen	母火鸡
+IGUI_AnimalType_turkeypoult	火鸡雏
+IGUI_AnimalUI_Info	<CENTRE> <SIZE:medium> 动物信息 <LINE> <LINE> <LEFT> <SIZE:small> 动物需要一个畜牧区,用左侧的"划定区域"图标创建.相邻的区域会连成一个更大的区域.更详细的信息可以在区域信息面板和生存指南里查看. <LINE> <LINE> 用木工菜单建造饲料槽.饲料槽必须位于动物的划定区域内才能正常工作. <LINE> 更详细的信息可以在饲料槽信息面板里查看. <LINE> <LINE> 把食物放进饲料槽的容器里即可添加食物. <LINE> 右键点击饲料槽可以加水. <LINE> <LINE> 噪音、附近有僵尸、以及有人在旁边奔跑都会让动物紧张. <LINE> <LINE> 雄性在交配季节通常会互相攻击. <LINE> 需要喝奶的幼崽必须能接触到母亲.
+IGUI_AnimalUI_Info_boar	 <LINE> <LINE> 公猪: <LINE> 仔猪需要喝母乳. <LINE> 交配季节是 9 月到 2 月. <LINE> 雄性之间不会互相打斗. <LINE> 可以吃干草、草、蔬菜、水果和动物饲料.
+IGUI_AnimalUI_Info_bull	 <LINE> <LINE> 公牛: <LINE> 牛犊需要喝母乳. <LINE> 全年都是交配季节. <LINE> 从青年期开始,公牛会和其他公牛打斗. <LINE> 可以吃干草、草、蔬菜、水果和动物饲料.
+IGUI_AnimalUI_Info_cockerel	 <LINE> <LINE> 小公鸡: <LINE> 小公鸡晚上会进入鸡舍.关好门的鸡舍里的动物可以免受捕食者侵害. <LINE> 动物早上会离开鸡舍. <LINE> 只有被小公鸡受精过的母鸡下的蛋才能孵出小鸡. <LINE> 全年都是交配季节. <LINE> 从青年期开始,小公鸡会和其他小公鸡打斗. <LINE> 可以吃干草、草、蔬菜、水果、种子、坚果和动物饲料.
+IGUI_AnimalUI_Info_cow	 <LINE> <LINE> 母牛: <LINE> 牛犊需要喝母乳. <LINE> 全年都是交配季节. <LINE> 母牛在怀孕几天后开始产奶. <LINE> 可以用水桶给母牛挤奶. <LINE> 怀孕结束后,如果不挤奶或牛犊不吃奶,母牛会在几天后停止产奶. <LINE> 可以吃干草、草、蔬菜、水果和动物饲料.
+IGUI_AnimalUI_Info_ewe	 <LINE> <LINE> 母羊: <LINE> 羔羊需要喝母乳. <LINE> 交配季节是 9 月到 2 月. <LINE> 母羊在怀孕几天后开始产奶. <LINE> 可以用水桶给羊挤奶. <LINE> 怀孕结束后,如果不挤奶或羔羊不吃奶,母羊会在几天后停止产奶. <LINE> 母羊从青年期开始产毛. <LINE> 可以用剪刀给毛量足够的动物剪毛. <LINE> 可以吃干草、草、蔬菜、水果和动物饲料.
+IGUI_AnimalUI_Info_hen	 <LINE> <LINE> 母鸡: <LINE> 母鸡晚上会进入鸡舍.关好门的鸡舍里的动物可以免受捕食者侵害. <LINE> 动物早上会离开鸡舍. <LINE> 鸡每天下一个蛋. <LINE> 只有被小公鸡受精过的母鸡下的蛋才能孵出小鸡. <LINE> 全年都是交配季节. <LINE> 可以吃干草、草、蔬菜、水果、种子、坚果和动物饲料.
+IGUI_AnimalUI_Info_pig	 <LINE> <LINE> 猪: <LINE> 仔猪需要喝母乳. <LINE> 交配季节是 9 月到 2 月. <LINE> 母猪在怀孕几天后开始产奶. <LINE> 怀孕结束后,如果不挤奶或仔猪不吃奶,母猪会在几天后停止产奶. <LINE> 可以吃干草、草、蔬菜、水果和动物饲料.
+IGUI_AnimalUI_Info_ram	 <LINE> <LINE> 公羊: <LINE> 羔羊需要喝母乳. <LINE> 交配季节是 9 月到 2 月. <LINE> 从青年期开始,公羊会和其他公羊打斗. <LINE> 公羊从青年期开始产毛. <LINE> 可以用剪刀给毛量足够的动物剪毛. <LINE> 可以吃干草、草、蔬菜、水果和动物饲料.
+IGUI_AnimalWeight	%1 公斤
+IGUI_AnimalWeightG	%1 克
+IGUI_Animal_Adolescent	青年
+IGUI_Animal_Adult	成年
+IGUI_Animal_Agitated	焦躁
+IGUI_Animal_Appearance	外观
+IGUI_Animal_AttachedTo	拴在
+IGUI_Animal_AttackOtherMales	雄性会攻击同种的其他雄性.
+IGUI_Animal_Babies	幼崽
+IGUI_Animal_Baby	幼崽
+IGUI_Animal_Calm	平静
+IGUI_Animal_CantFindMom	幼崽找不到母亲.
+IGUI_Animal_ClutchSize	一窝数量
+IGUI_Animal_ClutchSize_Large	多
+IGUI_Animal_ClutchSize_Medium	中
+IGUI_Animal_ClutchSize_Small	少
+IGUI_Animal_Dying	濒死
+IGUI_Animal_DyingThirst	渴死中
+IGUI_Animal_Female	雌性
+IGUI_Animal_Fertilized	已受精
+IGUI_Animal_FullyWatered	不渴
+IGUI_Animal_GatheringBlood	正在放血
+IGUI_Animal_GatheringMeat	正在分割
+IGUI_Animal_Geriatric	老年
+IGUI_Animal_Group_chicken	鸡
+IGUI_Animal_Group_cow	牛
+IGUI_Animal_Group_deaddeer	死鹿
+IGUI_Animal_Group_deer	鹿
+IGUI_Animal_Group_mouse	鼠
+IGUI_Animal_Group_pig	猪
+IGUI_Animal_Group_rabbit	兔
+IGUI_Animal_Group_raccoon	浣熊
+IGUI_Animal_Group_rat	鼠
+IGUI_Animal_Group_sheep	羊
+IGUI_Animal_Group_turkey	火鸡
+IGUI_Animal_Healthy	健康
+IGUI_Animal_Info	信息
+IGUI_Animal_Juvenile	幼年
+IGUI_Animal_JuvenileWeaned	幼年 (已断奶)
+IGUI_Animal_LayingEggPeriod	产蛋周期
+IGUI_Animal_Male	雄性
+IGUI_Animal_MatingSeason	交配季节
+IGUI_Animal_Milking	挤奶
+IGUI_Animal_NeedBaby	需要先有幼崽.
+IGUI_Animal_NoHutch	区域内没有找到鸡舍.
+IGUI_Animal_NoZoneFound	未分配区域,会四处游荡.
+IGUI_Animal_OffColor	状态不佳
+IGUI_Animal_PlayerAcceptance	玩家亲和度: 
+IGUI_Animal_Pregnancy_Almost	即将临产
+IGUI_Animal_Pregnancy_Begin	怀孕初期
+IGUI_Animal_Pregnancy_Gestating	怀孕中
+IGUI_Animal_Pregnancy_Ready	即将生产
+IGUI_Animal_Pregnant	怀孕
+IGUI_Animal_ReadyToImpregnate	可以交配
+IGUI_Animal_ReadyToImpregnateIn	可以交配倒计时
+IGUI_Animal_RemovingHead	正在去头
+IGUI_Animal_RemovingLeather	正在剥皮
+IGUI_Animal_Sickly	多病
+IGUI_Animal_Starving	极度饥饿
+IGUI_Animal_Stress	态度
+IGUI_Animal_StressAboveGround	因为身处地面以上而感到紧张.
+IGUI_Animal_Stressed	紧张
+IGUI_Animal_Thirsty	口渴
+IGUI_Animal_TooSoonForBaby	还不能再次生育.
+IGUI_Animal_TooYoungForBaby	年龄太小.
+IGUI_Animal_TrailerAvailability	可用空间
+IGUI_Animal_TroughLinkedTo	已连接到区域
+IGUI_Animal_TroughNotLinked	无
+IGUI_Animal_Udder	乳房
+IGUI_Animal_UdderMilked	刚挤过奶
+IGUI_Animal_UdderNotEnough	不够
+IGUI_Animal_UdderNothing	不产奶
+IGUI_Animal_UdderReady	可以挤奶
+IGUI_Animal_UdderSmall	少量
+IGUI_Animal_UdderUrgent	急需挤奶
+IGUI_Animal_Underfed	喂食不足
+IGUI_Animal_Unnerved	不安
+IGUI_Animal_WellFed	喂食充足
+IGUI_Animal_Wild	野生
+IGUI_Animal_Wool	羊毛
+IGUI_Animal_Wool_Abundant	充裕
+IGUI_Animal_Wool_Handful	一把
+IGUI_Animal_Wool_Little	少量
+IGUI_Animal_Wool_Moderate	中等
+IGUI_Animal_Wool_None	无
+IGUI_Animal_ZoneAcceptance	区域亲和度: 
+IGUI_Animal_ZoneFirstInfo	<CENTRE> <SIZE:medium> 家畜需要一个畜牧区才知道该待在哪里. <LINE> <LINE> 区域内的动物不会离开,除非感到紧张、饥饿或口渴. <LINE> <LINE> 围栏只是用来防止捕食者侵害. <LINE> <LINE> 如果两个或多个区域相邻,会被视为同一个区域. <LINE> <LINE> 饲料槽和鸡舍应该建在动物区域内,这样动物才能找到它们.
+IGUI_Animal_ZoneName	 畜牧区
+IGUI_AttachedItems_Item	物品
+IGUI_AttachedItems_ItemType	物品类型
+IGUI_AttachedItems_Location	位置
+IGUI_AttachedItems_ZombieAdd	添加到僵尸
+IGUI_AttachedItems_ZombieRemove	从僵尸移除
+IGUI_BackButton_Building	建筑
+IGUI_Base.AligatorGar_Description	鳄雀鳝通常偏好米诺鱼和肉.最好的鱼饵是饵鱼.
+IGUI_Base.BaitFish_Description	饵鱼通常偏好昆虫、植物和蠕虫.无法用人工鱼饵钓到.
+IGUI_Base.BlackCrappie_Description	黑莓鲈通常偏好米诺鱼和水蛭.最好的鱼饵是蝌蚪.
+IGUI_Base.BlueCatfish_Description	蓝鲶通常偏好肉和蠕虫.最好的鱼饵是狗粮.
+IGUI_Base.Bluegill_Description	蓝鳃太阳鱼通常偏好水蛭和蠕虫.最好的鱼饵是蟋蟀.
+IGUI_Base.ChannelCatfish_Description	斑点叉尾鮰通常偏好肉和蠕虫.最好的鱼饵是狗粮.
+IGUI_Base.FlatheadCatfish_Description	扁头鲶通常偏好肉和蠕虫.最好的鱼饵是狗粮.
+IGUI_Base.FreshwaterDrum_Description	淡水石首鱼通常偏好植物和蠕虫.最好的鱼饵是面团.
+IGUI_Base.GreenSunfish_Description	绿太阳鱼通常偏好昆虫和蠕虫.最好的鱼饵是蠕虫.
+IGUI_Base.LargemouthBass_Description	大口黑鲈通常偏好米诺鱼和蠕虫.最好的鱼饵是蛆.
+IGUI_Base.Muskellunge_Description	大眼狮鲈通常偏好米诺鱼和肉.最好的鱼饵是饵鱼.
+IGUI_Base.Paddlefish_Description	匙吻鲟没有偏好鱼饵.
+IGUI_Base.RedearSunfish_Description	红耳太阳鱼通常偏好昆虫和水蛭.最好的鱼饵是蚱蜢.
+IGUI_Base.Sauger_Description	沙加鱼通常偏好水蛭和蠕虫.最好的鱼饵是小龙虾.
+IGUI_Base.SmallmouthBass_Description	小口黑鲈通常偏好米诺鱼和蠕虫.最好的鱼饵是蠕虫.
+IGUI_Base.SpottedBass_Description	斑点黑鲈通常偏好水蛭和蠕虫.最好的鱼饵是小龙虾.
+IGUI_Base.StripedBass_Description	条纹鲈通常偏好米诺鱼和蠕虫.最好的鱼饵是水蛭.
+IGUI_Base.Walleye_Description	大眼梭鲈通常偏好昆虫、米诺鱼和水蛭.最好的鱼饵是水蛭.
+IGUI_Base.WhiteBass_Description	白鲈通常偏好水蛭和蠕虫.最好的鱼饵是蝌蚪.
+IGUI_Base.WhiteCrappie_Description	白莓鲈通常偏好米诺鱼和水蛭.最好的鱼饵是蝌蚪.
+IGUI_Base.YellowPerch_Description	黄鲈通常偏好昆虫和水蛭.最好的鱼饵是蜗牛.
+IGUI_Breed_angus	安格斯
+IGUI_Breed_appalachian	阿巴拉契亚
+IGUI_Breed_cottontail	棉尾
+IGUI_Breed_deer	鹿
+IGUI_Breed_friesian	东弗里生
+IGUI_Breed_golden	金色
+IGUI_Breed_grey	灰色
+IGUI_Breed_holstein	荷斯坦
+IGUI_Breed_landrace	美国长白
+IGUI_Breed_largeblack	大黑猪
+IGUI_Breed_leghorn	来航
+IGUI_Breed_meleagris	野火鸡
+IGUI_Breed_rambouillet	兰布伊
+IGUI_Breed_rhodeisland	罗德岛红
+IGUI_Breed_simmental	西门塔尔
+IGUI_Breed_suffolk	萨福克
+IGUI_Breed_swamp	沼泽
+IGUI_Breed_white	白色
+IGUI_Breed_whitetailed	白尾
+IGUI_Build_Name	建筑
+IGUI_ButcherHook_Bleed	放血
+IGUI_ButcherHook_Blood	血液: 
+IGUI_ButcherHook_Gather	采集
+IGUI_ButcherHook_Head	头部: 
+IGUI_ButcherHook_Leather	皮革: 
+IGUI_ButcherHook_Meat	肉: 
+IGUI_ButcherHook_NoAnimalFound	没有找到动物尸体.
+IGUI_ButcherHook_RemoveCorpse	移除尸体
+IGUI_CapabilitiesTooltips_AddItem	允许玩家把物品添加到自己的或其他玩家的物品栏.使用 /additem、/addkey 命令或物品列表界面.
+IGUI_CapabilitiesTooltips_AddUserlog	玩家可以在服务器上其他玩家的日志中添加自己的记录.使用用户列表窗口中的右键菜单.
+IGUI_CapabilitiesTooltips_AddXP	允许玩家给自己或其他玩家添加经验值.使用 /addxp 命令.
+IGUI_CapabilitiesTooltips_AdminChat	玩家可以使用管理员专用的聊天频道.
+IGUI_CapabilitiesTooltips_AnimalCheats	允许玩家使用动物作弊功能,该功能在管理员权限窗口中开启.
+IGUI_CapabilitiesTooltips_AnswerTickets	允许玩家查看和处理其他玩家提交的游戏内工单.使用管理面板中的"查看工单"按钮.
+IGUI_CapabilitiesTooltips_BanUnbanUser	玩家可以封禁和解封服务器用户.使用 /banuser、/unbanuser、/banid 和 /unbanid 命令.
+IGUI_CapabilitiesTooltips_BypassLuaChecksum	该玩家的 Lua 文件校验被禁用,允许未经授权的修改.
+IGUI_CapabilitiesTooltips_CanAlwaysJoinServer	即使服务器已满,玩家也总能加入.
+IGUI_CapabilitiesTooltips_CanGoInsideSafehouses	玩家可以进入通常上锁的安全屋.
+IGUI_CapabilitiesTooltips_CanHearAll	玩家可以听到服务器上所有的语音对话.在管理员权限窗口中开启.
+IGUI_CapabilitiesTooltips_CanMedicalCheat	允许玩家使用医疗作弊功能,该功能在管理员权限窗口中开启.
+IGUI_CapabilitiesTooltips_CanModifyBodyStats	玩家可以修改玩家身体状态.使用调试菜单面板中通用调试器的身体部分.
+IGUI_CapabilitiesTooltips_CanModifyPlayerStatsInThePlayerStatsUI	玩家可以修改玩家属性.使用管理面板中的"玩家属性"按钮.
+IGUI_CapabilitiesTooltips_CanOpenLockedDoors	玩家可以打开通常无法进入的门.
+IGUI_CapabilitiesTooltips_CanSeeAll	允许玩家无视障碍物看到其他玩家.在管理员权限窗口中开启.
+IGUI_CapabilitiesTooltips_CanSeeMessageForAdmin	允许玩家接收其他玩家发给管理员的消息.
+IGUI_CapabilitiesTooltips_CanSeePlayersStats	玩家可以查看其他玩家的统计数据和信息.使用管理面板中的"玩家属性"按钮.
+IGUI_CapabilitiesTooltips_CanSetupNonPVPZone	玩家可以在地图上划定禁止 PVP 战斗的区域.使用管理面板中的"非 PVP 区域"按钮.
+IGUI_CapabilitiesTooltips_CanSetupSafehouses	玩家可以在游戏世界中创建和配置安全屋.使用右键菜单以及 /addtosafehouse、/kickfromsafehouse 和 /releasesafehouse 命令.
+IGUI_CapabilitiesTooltips_CantBeBannedByAnticheat	该玩家不会被反作弊系统封禁.
+IGUI_CapabilitiesTooltips_CantBeBannedByUser	该玩家不能被其他用户封禁.
+IGUI_CapabilitiesTooltips_CantBeKickedByAnticheat	该玩家不会被反作弊系统踢出.
+IGUI_CapabilitiesTooltips_CantBeKickedByUser	该玩家不能被其他用户踢出.
+IGUI_CapabilitiesTooltips_CantBeKickedIfTooLaggy	该玩家不会因为网络延迟被踢出.
+IGUI_CapabilitiesTooltips_ChangeAccessLevel	玩家可以修改服务器上其他玩家的权限等级.使用 /setaccesslevel 命令.
+IGUI_CapabilitiesTooltips_ChangeAndReloadServerOptions	玩家可以即时修改并重新加载服务器选项.使用 /changeoption 和 /reloadoptions 命令.
+IGUI_CapabilitiesTooltips_ClimateManager	玩家可以控制和改变服务器上的天气等环境因素.使用管理面板中的"气候控制"按钮.
+IGUI_CapabilitiesTooltips_ConnectWithDebug	玩家可以使用带特定权限的调试连接.使用 /debugplayer 和 /setTimeSpeed 命令.
+IGUI_CapabilitiesTooltips_CreateHorde	玩家可以在指定位置生成僵尸尸群.使用 /createhorde 和 /createhorde2 控制台命令.
+IGUI_CapabilitiesTooltips_CreateStory	玩家可以在游戏中创建自定义剧情或场景.使用"随机区域剧情"和"随机道路剧情"右键菜单选项.
+IGUI_CapabilitiesTooltips_DebugConsole	玩家可以使用用于调试和测试的控制台命令界面.使用 /log 和 /clear 命令.
+IGUI_CapabilitiesTooltips_DisplayServerMessage	玩家可以向服务器上的所有玩家广播消息.使用 /servermsg 控制台命令.
+IGUI_CapabilitiesTooltips_EditItem	玩家可以修改游戏世界中物品的属性.使用物品栏右键菜单选项.
+IGUI_CapabilitiesTooltips_FactionCheat	允许玩家管理派系.使用管理面板中的按钮.
+IGUI_CapabilitiesTooltips_GeneralCheats	允许玩家使用 /roll 和 /card 控制台命令,还可以移除车辆.
+IGUI_CapabilitiesTooltips_GetStatistic	允许玩家查看详细的服务器、连接和数据包统计.使用管理面板中的"数据包计数"和"显示统计"按钮.
+IGUI_CapabilitiesTooltips_GetSteamScoreboard	允许玩家使用管理面板中的迷你记分板.
+IGUI_CapabilitiesTooltips_HideFromSteamUserList	玩家可以在 Steam 服务器的用户列表窗口中对其他玩家隐身.
+IGUI_CapabilitiesTooltips_InspectPlayerInventory	玩家可以查看服务器上任意其他玩家的物品栏内容.
+IGUI_CapabilitiesTooltips_KickUser	玩家可以把其他玩家踢出服务器.使用 /kick 或 /kickuser 控制台命令.
+IGUI_CapabilitiesTooltips_LoginOnServer	允许玩家登录服务器.
+IGUI_CapabilitiesTooltips_MakeEventsAlarmGunshot	允许玩家触发游戏内声音事件.使用 /alarm、/gunshot、/thunder 和 /chopper 命令.
+IGUI_CapabilitiesTooltips_ManipulateMods	玩家可以在游戏内更新已安装的模组.使用 /checkModsNeedUpdate 命令.
+IGUI_CapabilitiesTooltips_ManipulateVehicle	允许玩家在游戏世界中生成车辆.使用 /addvehicle 控制台命令.
+IGUI_CapabilitiesTooltips_ManipulateWhitelist	允许玩家把玩家加入或移出白名单.使用 /setpassword、/adduser、/addusertowhitelist、/addalltowhitelist 和 /removeuserfromwhitelist 命令.
+IGUI_CapabilitiesTooltips_ManipulateZombie	允许玩家用控制台命令移除僵尸,或让僵尸不攻击玩家.在管理员权限窗口中开启.
+IGUI_CapabilitiesTooltips_ModifyNetworkUsers	允许玩家用控制台命令添加、踢出、封禁和解封用户.
+IGUI_CapabilitiesTooltips_PVPLogTool	允许玩家使用管理面板中的 PVP 记录工具.
+IGUI_CapabilitiesTooltips_PopmanManage	允许玩家生成和移除僵尸.使用调试面板中的"僵尸数量"按钮.
+IGUI_CapabilitiesTooltips_PriorityLogin	服务器满员时该玩家登录可获优先处理,还可以创建无限数量的账号.
+IGUI_CapabilitiesTooltips_QuitWorld	允许玩家立即关闭服务器.使用 /quit 控制台命令.
+IGUI_CapabilitiesTooltips_ReadUserLog	玩家可以查看服务器上其他玩家的日志.使用用户列表窗口中的右键菜单.
+IGUI_CapabilitiesTooltips_ReloadLuaFiles	玩家可以重新加载游戏服务器使用的 Lua 脚本.使用 /reloadlua 命令.
+IGUI_CapabilitiesTooltips_RolesRead	玩家可以查看服务器上其他玩家的角色和权限.使用管理面板中的"角色列表"按钮.
+IGUI_CapabilitiesTooltips_RolesWrite	允许玩家修改并分配服务器上其他玩家的角色和权限.使用管理面板中的"角色列表"按钮.
+IGUI_CapabilitiesTooltips_SandboxOptions	允许玩家修改沙盒选项.使用管理面板中的"沙盒选项"按钮.
+IGUI_CapabilitiesTooltips_SaveWorld	玩家可以保存游戏世界的当前状态,保留改动和进度.
+IGUI_CapabilitiesTooltips_SeeNetworkUsers	玩家可以查看所有已连接网络用户的信息
+IGUI_CapabilitiesTooltips_SeePlayersConnected	允许玩家查看当前所有在线玩家和活动连接的列表.使用 /players 和 /connections 控制台命令.
+IGUI_CapabilitiesTooltips_SeePublicServerOptions	玩家可以在管理面板中查看服务器选项.
+IGUI_CapabilitiesTooltips_SeeWorldMap	允许玩家在世界地图上看到其他玩家.
+IGUI_CapabilitiesTooltips_SeesInvisiblePlayers	玩家可以看到其他隐形的玩家.
+IGUI_CapabilitiesTooltips_StartStopRain	允许玩家开始或停止降雨事件.使用 /startrain、/startstorm、/stoprain、/stopweather 和 /thunder 命令.
+IGUI_CapabilitiesTooltips_TeleportPlayerToAnotherPlayer	允许玩家把任意玩家传送到任意位置.使用用户列表界面中的右键菜单选项,或玩家列表中的按钮.
+IGUI_CapabilitiesTooltips_TeleportToCoordinates	允许玩家传送到地图上任意指定坐标.使用迷你记分板界面中的右键菜单选项,或玩家列表窗口中的按钮.
+IGUI_CapabilitiesTooltips_TeleportToPlayer	允许玩家立即传送到另一名玩家所在位置.使用迷你记分板界面中的右键菜单选项,或玩家列表窗口中的按钮.
+IGUI_CapabilitiesTooltips_ToggleGodModEveryone	玩家可以切换服务器上所有玩家的上帝模式.
+IGUI_CapabilitiesTooltips_ToggleGodModHimself	允许玩家开关上帝模式.使用 /godmod 或 /godmode 控制台命令. 
+IGUI_CapabilitiesTooltips_ToggleInvincibleHimself	玩家可以让自己免受伤害.在管理员权限窗口中开启.
+IGUI_CapabilitiesTooltips_ToggleInvisibleEveryone	玩家可以让其他玩家隐形.使用 /invisible 命令或迷你记分板窗口中的右键菜单.
+IGUI_CapabilitiesTooltips_ToggleInvisibleHimself	允许玩家切换自己在他人眼中的可见性.使用 /invisible 控制台命令.
+IGUI_CapabilitiesTooltips_ToggleNoclipEveryone	玩家可以为服务器上所有玩家开启穿墙功能.使用 /noclip 控制台命令.
+IGUI_CapabilitiesTooltips_ToggleNoclipHimself	允许玩家穿墙.可通过 /noclip 控制台命令开启.
+IGUI_CapabilitiesTooltips_ToggleUnlimitedCarry	允许玩家使用无限负重作弊功能,该功能在管理员权限窗口中开启.
+IGUI_CapabilitiesTooltips_ToggleUnlimitedEndurance	允许玩家使用无限耐力作弊功能,该功能在管理员权限窗口中开启.
+IGUI_CapabilitiesTooltips_ToggleWriteRoleNameAbove	玩家的角色名会显示在其头顶.
+IGUI_CapabilitiesTooltips_UIManagerProcessCommands	允许玩家执行控制台命令.
+IGUI_CapabilitiesTooltips_UseBrushToolManager	允许玩家使用笔刷工具管理器,该功能在管理员权限窗口中开启,可通过地图右键菜单中的按钮激活.
+IGUI_CapabilitiesTooltips_UseBuildCheat	允许玩家使用建造作弊功能,该功能在管理员权限窗口中开启.
+IGUI_CapabilitiesTooltips_UseFarmingCheat	允许玩家使用农业作弊功能,该功能在管理员权限窗口中开启.
+IGUI_CapabilitiesTooltips_UseFastMoveCheat	允许玩家使用快速移动作弊功能,该功能在管理员权限窗口中开启.
+IGUI_CapabilitiesTooltips_UseFishingCheat	允许玩家使用钓鱼作弊功能,该功能在管理员权限窗口中开启.
+IGUI_CapabilitiesTooltips_UseHealthCheat	允许玩家使用健康作弊功能,该功能在管理员权限窗口中开启.
+IGUI_CapabilitiesTooltips_UseMechanicsCheat	允许玩家使用机械作弊功能,该功能在管理员权限窗口中开启.
+IGUI_CapabilitiesTooltips_UseMovablesCheat	允许玩家使用搬运作弊功能,该功能在管理员权限窗口中开启.
+IGUI_CapabilitiesTooltips_UseTimedActionInstantCheat	允许玩家使用动作瞬间完成作弊功能,该功能在管理员权限窗口中开启.
+IGUI_CapabilitiesTooltips_UseZombieDontAttackCheat	允许玩家使用"僵尸不攻击"作弊功能,该功能在管理员权限窗口中开启.
+IGUI_CapabilitiesTooltips_WorkWithUserlog	玩家可以删除服务器上其他玩家日志中的记录.使用用户列表窗口中的右键菜单.
+IGUI_Chatbox_SlowMode	已开启慢速模式
+IGUI_ContainerTitle_SeatFrontLeft	驾驶座
+IGUI_ContainerTitle_SeatFrontRight	前排右座
+IGUI_ContainerTitle_SeatMiddleLeft	中排左座
+IGUI_ContainerTitle_SeatMiddleRight	中排右座
+IGUI_ContainerTitle_SeatRearLeft	后排左座
+IGUI_ContainerTitle_SeatRearRight	后排右座
+IGUI_ContainerTitle_SurvivorCrate	木箱
+IGUI_ContainerTitle_TruckBed	后备箱
+IGUI_ContainerTitle_TruckBedOpen	卡车货斗
+IGUI_ContainerTitle_barbecuepropane	烧烤炉
+IGUI_ContainerTitle_brazier	火盆
+IGUI_ContainerTitle_cardboardbox	纸箱
+IGUI_ContainerTitle_clothingdryerbasic	洗衣推车
+IGUI_ContainerTitle_coffeemaker	咖啡机
+IGUI_ContainerTitle_coffin	棺材
+IGUI_ContainerTitle_cupboard	橱柜
+IGUI_ContainerTitle_dishescabinet	碗柜
+IGUI_ContainerTitle_doghouse	狗屋
+IGUI_ContainerTitle_dumpster	垃圾箱
+IGUI_ContainerTitle_militarylocker	军用储物柜
+IGUI_ContainerTitle_newspaper_dispatch	报纸箱
+IGUI_ContainerTitle_newspaper_herald	报纸箱
+IGUI_ContainerTitle_newspaper_knews	报纸箱
+IGUI_ContainerTitle_newspaper_times	报纸箱
+IGUI_ContainerTitle_plankstash	藏匿处
+IGUI_ContainerTitle_restaurantdisplay	展示柜
+IGUI_ContainerTitle_shelter	庇护所
+IGUI_ContainerTitle_stonefurnace	熔炉
+IGUI_ContainerTitle_tent	帐篷
+IGUI_ContainerTitle_toaster	烤面包机
+IGUI_ContainerTitle_trough	饲料槽
+IGUI_CraftUI_AlreadyAssigned	已被使用
+IGUI_CraftUI_AnyItem	任意物品
+IGUI_CraftUI_AvailableItems	可用材料
+IGUI_CraftUI_CountLitres	%1 (%2 升)
+IGUI_CraftUI_CountOneLitre	%1 (%2 升)
+IGUI_CraftUI_PossibleFluids	可能的液体
+IGUI_CraftUI_PossibleItems	可能的物品
+IGUI_CraftingUI_ShowAllRecipe	显示所有配方
+IGUI_CraftingUI_ShowAllVersion	显示所有建造品质
+IGUI_CraftingWindow_AdvancedForge	高级锻炉
+IGUI_CraftingWindow_AdvancedFurnace	高级熔炉
+IGUI_CraftingWindow_AllowDestroyedItem	损坏/破损后仍可用于制作.
+IGUI_CraftingWindow_AllowFrozenItem	冷冻状态下也可以使用.
+IGUI_CraftingWindow_AllowRottenItem	腐烂状态下也可以使用.
+IGUI_CraftingWindow_Build	建造
+IGUI_CraftingWindow_CanWalk	可以边走边制作.
+IGUI_CraftingWindow_Cancel	取消
+IGUI_CraftingWindow_Cancel_Warning	取消制作会丢失已完成的进度.<br>已消耗的物品会返还.
+IGUI_CraftingWindow_ChurnBucket	黄油搅拌桶
+IGUI_CraftingWindow_CoffeeMachine	咖啡机
+IGUI_CraftingWindow_CouldBenefitFromRecipeAtHand	你已学会该配方,背包里有可阅读的配方书时即可制作.
+IGUI_CraftingWindow_Craft	制作
+IGUI_CraftingWindow_CraftTime	实际耗时:
+IGUI_CraftingWindow_Creates	产出
+IGUI_CraftingWindow_DomeKiln	圆顶窑
+IGUI_CraftingWindow_DontAllowFrozenItem	冷冻状态下无法使用.
+IGUI_CraftingWindow_DryLeatherLarge	大型皮革晾晒架
+IGUI_CraftingWindow_DryLeatherMedium	中型皮革晾晒架
+IGUI_CraftingWindow_DryLeathersmall	小型皮革晾晒架
+IGUI_CraftingWindow_DryingRackGrain	大型植物晾晒架
+IGUI_CraftingWindow_DryingRackHerb	小型植物晾晒架
+IGUI_CraftingWindow_Error_Inputs	缺少必需物品
+IGUI_CraftingWindow_Error_Moving	玩家正在移动
+IGUI_CraftingWindow_Error_NotAvailable	无法制作: 
+IGUI_CraftingWindow_Error_NotLearn	尚未学会该配方
+IGUI_CraftingWindow_Error_TooDark	光线太暗,无法制作
+IGUI_CraftingWindow_Error_Workbench	需要台面
+IGUI_CraftingWindow_Forge	简易或更好的锻炉
+IGUI_CraftingWindow_Furnace	简易或更好的熔炉
+IGUI_CraftingWindow_HandPress	手动压榨机
+IGUI_CraftingWindow_Has	拥有
+IGUI_CraftingWindow_HasLearned	已学会:
+IGUI_CraftingWindow_Header	制作台: 
+IGUI_CraftingWindow_Heckling	栉梳
+IGUI_CraftingWindow_InputWithContents	%1 (内含 %2)
+IGUI_CraftingWindow_IsBaseItem	所制作带柄物品的主要部件.
+IGUI_CraftingWindow_IsCookedFoodItem	必须是煮熟(或烧焦)的.
+IGUI_CraftingWindow_IsDamaged	必须已损坏.
+IGUI_CraftingWindow_IsEmpty	必须是空的.
+IGUI_CraftingWindow_IsEmptyContainer	必须是空的.
+IGUI_CraftingWindow_IsFull	必须是满的.
+IGUI_CraftingWindow_IsHandlePart	所制作工具或武器的握把、柄或杆部件.
+IGUI_CraftingWindow_IsHeadPart	所制作工具或武器的头部或刃部部件.
+IGUI_CraftingWindow_IsNotDull	工具太钝,无法制作.
+IGUI_CraftingWindow_IsNotWorn	不能已磨损.
+IGUI_CraftingWindow_IsSharpenable	锋利度必须低于其耐久(或刃部耐久). <br> 如果耐久过低,必须先修复刀刃才能打磨.
+IGUI_CraftingWindow_IsUncookedFoodItem	不能是煮熟(或烧焦)的.
+IGUI_CraftingWindow_IsUndamaged	必须未损坏.
+IGUI_CraftingWindow_IsWholeFoodItem	必须是完整的食物.
+IGUI_CraftingWindow_IsWorn	必须已磨损.
+IGUI_CraftingWindow_Keeps	保留
+IGUI_CraftingWindow_KilnLarge	高级窑
+IGUI_CraftingWindow_KilnSmall	原始窑
+IGUI_CraftingWindow_Level	等级
+IGUI_CraftingWindow_ListView	列表视图
+IGUI_CraftingWindow_ManualSelect	手动选择材料
+IGUI_CraftingWindow_MayDegrade	可能损坏工具.
+IGUI_CraftingWindow_MayDegradeHeavy	损坏工具的几率很高.
+IGUI_CraftingWindow_MayDegradeLight	损坏工具的几率较低.
+IGUI_CraftingWindow_MetalBandsaw	金属带锯
+IGUI_CraftingWindow_NoRecipes	没有可显示的配方.
+IGUI_CraftingWindow_NotEmpty	不能是空的.
+IGUI_CraftingWindow_NotFull	不能是满的.
+IGUI_CraftingWindow_Or	或
+IGUI_CraftingWindow_PotteryBench	陶艺工作台
+IGUI_CraftingWindow_PotteryWheel	陶轮
+IGUI_CraftingWindow_PrimitiveForge	原始或更好的锻炉
+IGUI_CraftingWindow_PrimitiveFurnace	原始或更好的熔炉
+IGUI_CraftingWindow_RecipeKnown	你已学会该配方.
+IGUI_CraftingWindow_RemoveFlesh	软化梁
+IGUI_CraftingWindow_RemoveFur	软化梁
+IGUI_CraftingWindow_Requires	所需物品
+IGUI_CraftingWindow_Requires2	需要
+IGUI_CraftingWindow_RequiresA	需要:
+IGUI_CraftingWindow_RequiresLearning	你还没有学会该配方.
+IGUI_CraftingWindow_RequiresLight	需要光线.
+IGUI_CraftingWindow_RequiresSurface	需要台面.
+IGUI_CraftingWindow_Rippling	波纹梳
+IGUI_CraftingWindow_Scutching	打麻板
+IGUI_CraftingWindow_SearchRecipes	搜索配方...
+IGUI_CraftingWindow_Seconds	秒
+IGUI_CraftingWindow_SharpnessCheck	可能使工具变钝.
+IGUI_CraftingWindow_SpinningWheel	纺车
+IGUI_CraftingWindow_Stone_Mill	石磨
+IGUI_CraftingWindow_Stone_Quern	石磨盘
+IGUI_CraftingWindow_Surface	台面
+IGUI_CraftingWindow_TanLeather	鞣制桶
+IGUI_CraftingWindow_Title	制作
+IGUI_CraftingWindow_Toaster	烤面包机
+IGUI_CraftingWindow_ToolLeft	左
+IGUI_CraftingWindow_ToolRight	右
+IGUI_CraftingWindow_Tools	工具
+IGUI_CraftingWindow_UseMultiple	单位
+IGUI_CraftingWindow_UseOne	单位
+IGUI_CraftingWindow_ValidateBenefitFromRecipeAtHand	可以制作:背包里有可阅读的配方.
+IGUI_CraftingWindow_Weaving	织布机
+IGUI_CraftingWindow_WillBeConsume	将消耗 %1 个单位.
+IGUI_CraftingWindow_WillBeDestroyed	会被配方用掉.
+IGUI_CraftingWindow_WillBeKept	会被保留.
+IGUI_CraftingWindow_WoodCharcoal	木炭烧制桶或炭堆
+IGUI_DamagedObject_Almost_Broken	几乎损坏
+IGUI_DamagedObject_Damage_String	损坏度
+IGUI_DamagedObject_Impossible	损坏太严重,无法修复
+IGUI_DamagedObject_Minor	明显损坏
+IGUI_DamagedObject_Moderate	严重损坏
+IGUI_DamagedObject_Superficial	轻微损坏
+IGUI_DamagedObject_Undamaged	未损坏
+IGUI_DesignationZone_AddZone	创建这个区域吗?
+IGUI_DesignationZone_Animals	动物: 
+IGUI_DesignationZone_Corpses	尸体: 
+IGUI_DesignationZone_Dead	死亡
+IGUI_DesignationZone_FeedingTroughs	饲料槽: 
+IGUI_DesignationZone_Food	可用食物: 
+IGUI_DesignationZone_HowTo	按住鼠标拖动来创建畜牧区.
+IGUI_DesignationZone_HowToJoypadEnd	用十字键选择终点位置.
+IGUI_DesignationZone_HowToJoypadStart	用十字键选择起点位置.
+IGUI_DesignationZone_Hutchs	鸡舍: 
+IGUI_DesignationZone_InHutch	在鸡舍内
+IGUI_DesignationZone_Info	<CENTRE> <SIZE:medium> 畜牧区 <LINE> <LINE> <LEFT> <SIZE:small> 动物必须在畜牧区内才不会到处游荡. <LINE> 点击左上角的区域图标,选择"添加区域",然后拖出一个矩形来创建新区域.相邻的区域会被动物视为同一个区域. <LINE> <LINE> 动物通常会待在自己的区域内,但受到惊吓时会逃跑.为此可以在区域周围建一圈围栏. <LINE> <LINE> 右键点击区域中的任意格子并选择"检查区域",即可查看当前的动物、鸡舍、食物等信息. <LINE> <LINE> 动物也会识别区域内有屋顶的地方,下雨时会倾向于待在下面.
+IGUI_DesignationZone_NearRiver	靠近河流的格子: 
+IGUI_DesignationZone_RoofArea	有屋顶面积: 
+IGUI_DesignationZone_SetPosition	设置位置
+IGUI_DesignationZone_Title	附近的畜牧区
+IGUI_DesignationZone_Type_AnimalZone	畜牧区
+IGUI_DesignationZone_Type_Height	长度
+IGUI_DesignationZone_Type_IncorrectSize	尺寸无效
+IGUI_DesignationZone_Type_TotalSize	总面积
+IGUI_DesignationZone_Type_Width	宽度
+IGUI_DesignationZone_WanderInfo	只要安全,动物就不会离开自己的区域.
+IGUI_DesignationZone_WanderInfo2	如果过于紧张、口渴,或者附近有僵尸,它们就会离开.
+IGUI_DesignationZone_Water	可用水: 
+IGUI_Designation_RemoveConfirm	你确实要移除"%1"吗?
+IGUI_Draws	抽到
+IGUI_ExtendedPlacement_Increment	增量
+IGUI_ExtendedPlacement_Mode	模式
+IGUI_ExtendedPlacement_ModeMovement	移动
+IGUI_ExtendedPlacement_ModeRotation	旋转
+IGUI_ExtendedPlacement_Revert	还原
+IGUI_ExtendedPlacement_XAxis	X 轴
+IGUI_ExtendedPlacement_YAxis	Y 轴
+IGUI_ExtendedPlacement_ZAxis	Z 轴
+IGUI_FeedingTroughUI_AttachedAnimals	区域内的动物
+IGUI_FeedingTroughUI_Enclosure	围栏大小: 
+IGUI_FeedingTroughUI_EnclosureNotFound	未找到
+IGUI_FeedingTroughUI_Feeding	喂食
+IGUI_FeedingTroughUI_Water	水
+IGUI_FilterType_InputName	所需物品
+IGUI_FilterType_InputNameTooltip	按每个配方可能用到的材料和工具搜索.
+IGUI_FilterType_OutputName	产出物品
+IGUI_FilterType_OutputNameTooltip	按每个配方的产物搜索.
+IGUI_FilterType_RecipeName	配方名称
+IGUI_FilterType_RecipeNameTooltip	按配方名称搜索.
+IGUI_Fishing_BadParam	差
+IGUI_Fishing_NoCatch	没有钓到
+IGUI_Fishing_Wind	风
+IGUI_HotbarAttachment_BedrollBottom	背包底部
+IGUI_HotbarAttachment_BedrollBottomALICE	背包底部
+IGUI_HotbarAttachment_BedrollBottomBig	背包底部
+IGUI_HotbarAttachment_HolsterAnkle	踝部枪套
+IGUI_HotbarAttachment_HolsterShoulder	肩部枪套
+IGUI_HotbarAttachment_WebbingLeft	左侧织带
+IGUI_HotbarAttachment_WebbingRight	右侧织带
+IGUI_Hutch_ChangeStraw	更换垫草
+IGUI_Hutch_Clean	清理
+IGUI_Hutch_CloseDoors	关门
+IGUI_Hutch_CloseEggDoors	关闭取蛋门
+IGUI_Hutch_CoopRoosting	鸡舍栖架
+IGUI_Hutch_Dirt	脏污度: %1%
+IGUI_Hutch_EggLayingBox	产蛋箱
+IGUI_Hutch_EggsNb	鸡蛋: %1
+IGUI_Hutch_EmptyHands	收鸡蛋需要空手.
+IGUI_Hutch_Grab	抓取
+IGUI_Hutch_GrabEggs	收取鸡蛋
+IGUI_Hutch_Info	<CENTRE> <SIZE:medium> 鸡舍 <LINE> <LINE> <LEFT> <SIZE:small> 如果开着门,鸡会在傍晚进入鸡舍并待到早上.等所有动物都进去后关上门,可以保护它们免受捕食者侵害. <LINE> <LINE> 鸡舍会随着时间变脏,里面的动物越多脏得越快.用水和拖把或毛巾清理鸡舍.脏鸡舍会对里面动物的健康产生负面影响. <LINE> <LINE> 母鸡会在鸡舍内的产蛋箱里下蛋.如果箱子满了,母鸡会把蛋下在外面.
+IGUI_Hutch_NeedWaterMop	需要水以及拖把、洗碗布、浴巾或扫帚.
+IGUI_Hutch_OpenDoors	开门
+IGUI_Hutch_OpenEggDoors	打开取蛋门
+IGUI_Hutch_StrawDirt	垫草脏污度: %1%
+IGUI_ItemCat_Animal	动物
+IGUI_ItemCat_AnimalPart	动物部位
+IGUI_ItemCat_AnimalPartWeapon	动物部位 / 武器
+IGUI_ItemCat_Bear	熊
+IGUI_ItemCat_BrokenWeapon	武器 - 已损坏
+IGUI_ItemCat_Bug	昆虫
+IGUI_ItemCat_CookingWeapon	厨具 / 武器
+IGUI_ItemCat_Dog	狗
+IGUI_ItemCat_Duck	鸭
+IGUI_ItemCat_Ears	耳朵
+IGUI_ItemCat_Eye	眼睛
+IGUI_ItemCat_FireSource	火源
+IGUI_ItemCat_FirstAidWeapon	急救品 / 武器
+IGUI_ItemCat_FishingWeapon	钓具 / 武器
+IGUI_ItemCat_Frog	青蛙
+IGUI_ItemCat_GardeningWeapon	园艺工具 / 武器
+IGUI_ItemCat_Generic	通用
+IGUI_ItemCat_Goblin	哥布林
+IGUI_ItemCat_HouseholdWeapon	家用品 / 武器
+IGUI_ItemCat_InstrumentWeapon	乐器 / 武器
+IGUI_ItemCat_JunkWeapon	杂物 / 武器
+IGUI_ItemCat_MaterialWeapon	材料 / 武器
+IGUI_ItemCat_Memento	纪念品
+IGUI_ItemCat_ProtectiveGear	防护装备
+IGUI_ItemCat_RecipeResource	配方材料
+IGUI_ItemCat_Spider	蜘蛛
+IGUI_ItemCat_SportsWeapon	运动器材 / 武器
+IGUI_ItemCat_Tail	尾巴
+IGUI_ItemCat_Teddy Bear	泰迪熊
+IGUI_ItemCat_Unknown	未知
+IGUI_ItemCat_VehicleMaintenanceWeapon	车辆维修品 / 武器
+IGUI_ItemCat_WeaponImprovised	武器 - 自制
+IGUI_Keyboard_Accept	确认
+IGUI_Keyboard_Cancel	取消
+IGUI_Keyboard_Caps	大写锁定
+IGUI_Keyboard_Delete	删除
+IGUI_Keyboard_Enter	回车
+IGUI_Keyboard_Shift	Shift
+IGUI_Keyboard_Space	空格
+IGUI_LiteratureUI_Growing	农业
+IGUI_LiteratureUI_RecipeBooks	杂志
+IGUI_MapOption_HighlightStreet	高亮街道
+IGUI_MapOption_LargeStreetLabel	大号街道标签
+IGUI_MapOption_PlaceNames	地名
+IGUI_MapOption_ShowStreetNames	街道名称
+IGUI_MapOption_TerrainImage	地形图
+IGUI_Map_All	全部
+IGUI_Map_Brightness	亮度
+IGUI_Map_Community	社区
+IGUI_Map_EditElement	编辑标记
+IGUI_Map_EditSymbol	编辑符号
+IGUI_Map_Hospitality	餐饮住宿
+IGUI_Map_Industrial	工业区
+IGUI_Map_Key	图例
+IGUI_Map_Locations	地点
+IGUI_Map_Loot	物资
+IGUI_Map_Medical	医疗
+IGUI_Map_MoveElement_tt	右键取消.<br>按住 Shift 可复制标记.
+IGUI_Map_Parks	公园
+IGUI_Map_Residential	住宅区
+IGUI_Map_RestaurantsEntertainment	餐饮与娱乐
+IGUI_Map_RetailCommercial	零售与商业
+IGUI_Map_RotateElement	旋转标记
+IGUI_Map_RotateElement_tt	右键取消.<br>按 Z 键把旋转角度归零.
+IGUI_Map_Symbols	符号
+IGUI_Map_TabLocations	地点
+IGUI_Map_TabLoot	物资
+IGUI_Map_TabSymbols	符号
+IGUI_MigrationGroup_deer	鹿
+IGUI_MigrationGroup_large	大型
+IGUI_MigrationGroup_medium	中型
+IGUI_MigrationGroup_rabbit	兔
+IGUI_MigrationGroup_small	小型
+IGUI_NewUI_Brochure	宣传册
+IGUI_NewUI_Flier	传单
+IGUI_NewUI_Newspaper	报纸
+IGUI_Option_DropCorpseInto	把尸体放入
+IGUI_Option_DropCorpseIntoContainerName	把尸体放入 
+IGUI_Option_GrabCorpseFrom	取出尸体:
+IGUI_Option_GrabCorpseFromContainerName	取出尸体:
+IGUI_PVPLogTool_SendToChat	发送到聊天
+IGUI_PVPLogTool_WriteToFile	写入文件
+IGUI_PlayerStats_AddTraitTooltip	会添加特性,但不会添加技能等级或经验倍率.技能等级可以在下方添加.
+IGUI_PlayerStats_AddXPMultipliers	使用经验倍率
+IGUI_PlayerStats_SeeInventory	查看 %1 的物品栏
+IGUI_PutAnimalInHutch_DoorsClosed	需要把门或取蛋门打开.
+IGUI_PutAnimalInHutch_HutchFull	鸡舍已满.
+IGUI_Repair	修复
+IGUI_Repair_Fail	**修复物件失败**
+IGUI_RolesList_Add	添加
+IGUI_RolesList_AddRole	添加角色
+IGUI_RolesList_Close	关闭
+IGUI_RolesList_Delete	删除
+IGUI_RolesList_DeleteRole	删除角色
+IGUI_RolesList_Down	下移
+IGUI_RolesList_Edit	编辑
+IGUI_RolesList_Save	保存
+IGUI_RolesList_SetDefaultForBanned	设为被封禁者的默认角色
+IGUI_RolesList_SetDefaultForGM	设为优先 GM 的默认角色
+IGUI_RolesList_SetDefaultForModerator	设为版主的默认角色
+IGUI_RolesList_SetDefaultForNewUser	设为新用户的默认角色
+IGUI_RolesList_SetDefaultForObserver	设为优先观察者的默认角色
+IGUI_RolesList_SetDefaultForOverseer	设为监工的默认角色
+IGUI_RolesList_SetDefaultForPriorityUser	设为优先用户的默认角色
+IGUI_RolesList_SetDefaultForUser	设为用户的默认角色
+IGUI_RolesList_Up	上移
+IGUI_SafehouseUI_DateCreated	创建时间: 
+IGUI_SafehouseUI_HitPoints	生命值:
+IGUI_SafehouseUI_Location	位置: 
+IGUI_Safehouse_Intersects	安全屋与其他安全屋重叠.
+IGUI_Safehouse_War	安全屋已被用于战争.
+IGUI_SearchMode_Categories_Tracks	动物足迹
+IGUI_SearchMode_Categories_WildHerbs	野生草药
+IGUI_SearchMode_Debug_Overlay_Override_Button	覆盖
+IGUI_SearchMode_Tip_Hover	悬停查看
+IGUI_SearchMode_Zone_Names_BirchForest	白桦林
+IGUI_SearchMode_Zone_Names_BirchMixForest	白桦混交林
+IGUI_SearchMode_Zone_Names_FarmForest	经营林地
+IGUI_SearchMode_Zone_Names_FarmMixForest	农田林地
+IGUI_SearchMode_Zone_Names_ForagingNav	道路
+IGUI_SearchMode_Zone_Names_OrganicForest	有机林
+IGUI_SearchMode_Zone_Names_PHForest	酸性林
+IGUI_SearchMode_Zone_Names_PHMixForest	酸性混交林
+IGUI_SearchMode_Zone_Names_PRForest	原始林
+IGUI_Season_Autumn	秋
+IGUI_Season_Default	默认
+IGUI_Season_Spring	春
+IGUI_Season_SummerE	初夏
+IGUI_Season_SummerL	夏末
+IGUI_Season_Winter	冬
+IGUI_SortType_LastUsed	最近使用
+IGUI_SortType_LastUsedTooltip	按最近使用的配方排序.
+IGUI_SortType_MostUsed	常用
+IGUI_SortType_MostUsedTooltip	按使用频率最高的配方排序.
+IGUI_SortType_RecipeName	按名称 (A-Z)
+IGUI_SortType_RecipeNameTooltip	按配方名称排序.
+IGUI_StatsAndBody_Anger	愤怒
+IGUI_StatsAndBody_Boredom	无聊
+IGUI_StatsAndBody_Calories	卡路里
+IGUI_StatsAndBody_ColdDamageStage	冻伤阶段 (低温 4)
+IGUI_StatsAndBody_ColdStrength	感冒强度
+IGUI_StatsAndBody_Discomfort	不适
+IGUI_StatsAndBody_Endurance	耐力
+IGUI_StatsAndBody_Fatigue	疲劳
+IGUI_StatsAndBody_Fear	恐惧
+IGUI_StatsAndBody_Fitness	体格
+IGUI_StatsAndBody_FoodSickness	食物中毒
+IGUI_StatsAndBody_Ghost	幽灵
+IGUI_StatsAndBody_GodMod	上帝模式
+IGUI_StatsAndBody_HealthFromFoodTimer	食物消化计时
+IGUI_StatsAndBody_Hunger	饥饿
+IGUI_StatsAndBody_Idleness	空闲
+IGUI_StatsAndBody_Intoxication	醉酒
+IGUI_StatsAndBody_Invisible	隐形
+IGUI_StatsAndBody_IsFakeInfected	假感染
+IGUI_StatsAndBody_IsInfected	已感染
+IGUI_StatsAndBody_IsOnFire	着火
+IGUI_StatsAndBody_Morale	士气
+IGUI_StatsAndBody_MoraleInfo	(只有压力大于 0 时才能调整士气)
+IGUI_StatsAndBody_NicotineWithdrawal	尼古丁戒断压力
+IGUI_StatsAndBody_OverallBodyHealth	身体总健康
+IGUI_StatsAndBody_Pain	疼痛
+IGUI_StatsAndBody_PainInfo	(疼痛和疾病无法手动调整)
+IGUI_StatsAndBody_Panic	恐慌
+IGUI_StatsAndBody_Poison	中毒
+IGUI_StatsAndBody_Sanity	理智
+IGUI_StatsAndBody_Sickness	疾病
+IGUI_StatsAndBody_Stress	压力
+IGUI_StatsAndBody_Temperature	体温
+IGUI_StatsAndBody_Thirst	口渴
+IGUI_StatsAndBody_TimeSinceLastSmoke	距上次吸烟时间
+IGUI_StatsAndBody_Title	玩家属性与身体
+IGUI_StatsAndBody_Unhappiness	不快乐
+IGUI_StatsAndBody_Weight	体重
+IGUI_StatsAndBody_Wetness	潮湿
+IGUI_StatsAndBody_ZombieFever	僵尸热
+IGUI_StatsAndBody_ZombieInfection	僵尸感染
+IGUI_Tooltip_DoorClosed	车门已关闭
+IGUI_Tooltip_PlayerOwn	玩家已经拿着这个了.
+IGUI_Tooltip_VehicleDoorLocked	车门已锁,或者锁已损坏.
+IGUI_UserList_Add	添加用户
+IGUI_UserList_AddWarningPoint	添加警告分数
+IGUI_UserList_Ban	封禁
+IGUI_UserList_BanBySteamID	按 Steam ID 封禁
+IGUI_UserList_BanHimself	你不能封禁自己
+IGUI_UserList_BanIP	按 IP 封禁
+IGUI_UserList_BanIPNotOnline	用户不在线
+IGUI_UserList_BanSteamIdNotOnline	用户不在线
+IGUI_UserList_BannedAlready	该用户已被封禁
+IGUI_UserList_BannedIPs	已封禁的 IP
+IGUI_UserList_BannedIPs_Close	关闭
+IGUI_UserList_BannedIPs_Refresh	刷新
+IGUI_UserList_BannedIPs_Unban	解封
+IGUI_UserList_BannedIPs_UnbanPopup	你确实要解封这个 IP 吗?
+IGUI_UserList_BannedSteamIDs	已封禁的 SteamID
+IGUI_UserList_BannedSteamIDs_UnbanPopup	你确实要解封这个 SteamID 吗?
+IGUI_UserList_CantBeBanned	该用户无法被封禁
+IGUI_UserList_CantBeKicked	该用户无法被踢出
+IGUI_UserList_Delete	删除
+IGUI_UserList_Kick	踢出
+IGUI_UserList_KickHimself	你不能踢出自己
+IGUI_UserList_Offline	离线
+IGUI_UserList_Online	在线
+IGUI_UserList_ResetPassword	重置密码
+IGUI_UserList_ResetTOTPSecret	重置 TOTP 密钥
+IGUI_UserList_SeeSuspicionActivity	查看可疑行为
+IGUI_UserList_SeeUserLog	查看用户日志
+IGUI_UserList_SetPassword	设置密码
+IGUI_UserList_SetRole	设置角色: %1
+IGUI_UserList_Teleport	传送
+IGUI_UserList_TeleportToHim	传送到他那里
+IGUI_UserList_UnBan	解封
+IGUI_UserList_UnBanBySteamID	按 Steam ID 解封
+IGUI_UserList_UnBanIP	按 IP 解封
+IGUI_UsersList_DetailsAuthType	验证类型: %1
+IGUI_UsersList_DetailsLastConnection	上次连接: %1
+IGUI_UsersList_DetailsNoWhitelist	(不在白名单中)
+IGUI_UsersList_DetailsRole	角色: %1
+IGUI_UsersList_Filter	过滤: 
+IGUI_UsersList_FilterTooltip	按用户名、被封禁的 SteamID 或 IP 过滤用户列表
+IGUI_UsersList_Kicks	被踢次数: %1
+IGUI_UsersList_SuspicionPoints	可疑分数: %1
+IGUI_UsersList_WarningPoints	警告分数: %1
+IGUI_VehicleNameStepVan_Cereal	麦片配送 Chevalier 厢式货车
+IGUI_VehicleNameStepVan_Citr8	Citr8 Chevalier 厢式货车
+IGUI_VehicleNameStepVan_CompleteRepairShop	全修车行 Chevalier 厢式货车
+IGUI_VehicleNameStepVan_Genuine_Beer	正品啤酒 Chevalier 厢式货车
+IGUI_VehicleNameStepVan_HuangsLaundry	黄氏洗衣 Chevalier 厢式货车
+IGUI_VehicleNameStepVan_Jorgensen	Jorgensen Chevalier 厢式货车
+IGUI_VehicleNameStepVan_LouisvilleMotorShop	路易斯维尔车行 Chevalier 厢式货车
+IGUI_VehicleNameStepVan_LouisvilleSWAT	路易斯维尔特警 Chevalier 厢式货车
+IGUI_VehicleNameStepVan_MarineBites	海味小食 Chevalier 厢式货车
+IGUI_VehicleNameStepVan_Mechanic	修车工 Chevalier 厢式货车
+IGUI_VehicleNameStepVan_Plonkies	Plonkies Chevalier 厢式货车
+IGUI_VehicleNameStepVan_RandisPlants	兰迪植物 Chevalier 厢式货车
+IGUI_VehicleNameStepVan_SouthEasternHosp	东南酒店用品 Chevalier 厢式货车
+IGUI_VehicleNameStepVan_SouthEasternPaint	东南油漆 Chevalier 厢式货车
+IGUI_VehicleNameStepVan_USL	USL Chevalier 厢式货车
+IGUI_VehicleNameStepVan_Zippee	Zippee Chevalier 厢式货车
+IGUI_VehicleNameTrailer_Horsebox	运马拖车
+IGUI_VehicleNameTrailer_Livestock	牲畜拖车
+IGUI_VehicleNameVanSeats_Creature	生物巡洋舰
+IGUI_VehicleNameVanSeats_LadyDelighter	淑女号
+IGUI_VehicleNameVanSeats_Prison	囚犯运输车 Franklin Valuline
+IGUI_VehicleNameVanSeats_Space	量子飞船
+IGUI_VehicleNameVanSeats_Trippy	迷幻马车
+IGUI_VehicleNameVanSeats_Valkyrie	女武神之矛
+IGUI_VehicleNameVan_BugWipers	除虫车 Franklin Valuline
+IGUI_VehicleNameVan_VoltMojo	闪电魔力 Franklin Valuline
+IGUI_Voice_Bob	鲍勃
+IGUI_Voice_Casey-Jo	凯西-乔
+IGUI_Voice_Chris	克里斯
+IGUI_Voice_Hank	汉克
+IGUI_Voice_James	詹姆斯
+IGUI_Voice_Janine	珍妮
+IGUI_Voice_Kate	凯特
+IGUI_Voice_Maryanne	玛丽安
+IGUI_WarClaimingUI_WarAcceptedByOther	%1<br>接受了战争!<br>战争将于<br>%2 开始
+IGUI_WarClaimingUI_WarAcceptedByPlayer	你接受了与<br>%1 的战争.<br>战争将于<br>%2 开始
+IGUI_WarClaimingUI_WarClaimed	%1 向你宣战! <br> 你敢应战吗?
+IGUI_WarClaimingUI_WarClaimedWait4Answer	你发起了战争!<br>等待回应中...<br>%1<br>必须在<br>%2 之前回应
+IGUI_WarClaimingUI_WarEnded	与<br>%1<br>的战争已结束!
+IGUI_WarClaimingUI_WarRefused	%1<br>拒绝了战争.
+IGUI_WarClaimingUI_WarStarted	与<br>%1<br>的战争已开始!
+IGUI_WarManager_AcceptWar	接受
+IGUI_WarManager_Attacker	进攻方
+IGUI_WarManager_CancelWar	取消
+IGUI_WarManager_Close	关闭
+IGUI_WarManager_Defender	防守方
+IGUI_WarManager_EndWar	结束
+IGUI_WarManager_RefuseWar	拒绝
+IGUI_WarManager_TimeToAccept	%1 后拒绝
+IGUI_WarManager_TimeToEnd	%1 后结束
+IGUI_WarManager_TimeToStart	%1 后开始
+IGUI_WarManager_WarItemText	进攻方: %1<br>防守方: %2<br>状态: %3<br>%4
+IGUI_WarManager_You	你
+IGUI_health_DebugInvisibleStiffness	(调试 - 隐形肌肉劳损 - 对玩家没有实际效果!)
+IGUI_health_MinorStiffness	轻微肌肉劳损
+IGUI_invpage_Loot_TakeSameType	拿取同类型
+IGUI_invpage_Loot_TakeSameType_tt	拿取类型匹配的物品.
+IGUI_invpage_Occupied	(已占用)
+IGUI_invpage_TransferSameTypeMultiContainer_tt	把类型匹配的物品转移到附近的容器.
+IGUI_invpage_TransferSameTypeOneContainer_tt	把类型匹配的物品转移到当前显示的容器.
+IGUI_invpage_Transfer_SameTypeMultiContainer	转移同类型物品到多个容器
+IGUI_invpage_Transfer_SameTypeOneContainer	只转移同类型物品到当前容器
+IGUI_perks_Agriculture_Description	增加可查看的作物信息.通过收获自己种植的作物来训练.
+IGUI_perks_Aiming_Description	提高枪械命中目标的几率和额外伤害.
+IGUI_perks_Animal Care_Description	增加可查看的动物信息,以及从动物身上获取的资源数量.
+IGUI_perks_Axe_Description	提高斧类武器的攻击速度和伤害,并减少其肌肉劳损.
+IGUI_perks_Blacksmithing_Description	可以制作金属物品和物件.
+IGUI_perks_Butchering	屠宰
+IGUI_perks_Butchering_Description	提高从动物身上获取的肉的品质.
+IGUI_perks_Carpentry_Description	可以建造木制建筑.
+IGUI_perks_Carving	雕刻
+IGUI_perks_Carving_Description	可以制作小型木制物品.
+IGUI_perks_CombatFirearms	战斗 - 枪械
+IGUI_perks_CombatMelee	战斗 - 近战
+IGUI_perks_Cooking_Description	可以制作更有营养、更美味的食物.
+IGUI_perks_Electrical_Description	可以制作和维护电子设备.
+IGUI_perks_FarmingCategory	耕作
+IGUI_perks_First Aid_Description	增加可查看的伤势信息,并提高医疗处理的质量.
+IGUI_perks_Fishing_Description	提高钓鱼成功率、渔获品质,并降低渔具损坏的几率.
+IGUI_perks_Fitness_Description	提高近战攻击速度,以及攀爬的速度和成功率,降低体力消耗速度.
+IGUI_perks_FlintKnapping	打制石器
+IGUI_perks_Foraging_Description	提高搜寻模式中找到物品的品质、可用搜索类别和搜索半径.
+IGUI_perks_Glassmaking	玻璃工艺
+IGUI_perks_Glassmaking_Description	可以制作玻璃和玻璃制品.
+IGUI_perks_Husbandry	动物照料
+IGUI_perks_Knapping_Description	可以制作小型石制物品.
+IGUI_perks_Lightfooted_Description	降低跑步、走路或蹲行时脚步的噪音.
+IGUI_perks_Long Blade_Description	提高长刀类武器的攻击速度和伤害,并减少其肌肉劳损.
+IGUI_perks_Long Blunt_Description	提高长棍类武器的攻击速度和伤害,并减少其肌肉劳损.
+IGUI_perks_Maintenance_Description	降低近战武器损坏的几率.通过近战战斗来训练.
+IGUI_perks_Masonry	砌石
+IGUI_perks_Masonry_Description	可以建造更好、更坚固的砖石建筑.
+IGUI_perks_Mechanics_Description	提高车辆维修的效果.
+IGUI_perks_Nimble_Description	提高"战斗姿态"下的移动速度,并降低脚步声.
+IGUI_perks_PhysicalCategory	体格
+IGUI_perks_Pottery	陶艺
+IGUI_perks_Pottery_Description	可以制作黏土和陶制物品.
+IGUI_perks_Reloading_Description	提高枪械和弹匣的装填速度.通过给枪械装填来训练.
+IGUI_perks_Running_Description	提高奔跑时的移动速度.
+IGUI_perks_Short Blade_Description	提高短刀类武器的攻击速度和伤害,并减少其肌肉劳损.
+IGUI_perks_Short Blunt_Description	提高短棍类武器的攻击速度和伤害,并减少其肌肉劳损.
+IGUI_perks_Sneaking_Description	降低僵尸发现你的距离,以及蹲行时脚步的噪音.
+IGUI_perks_Spear_Description	提高长矛类武器的攻击速度和伤害,并减少其肌肉劳损.
+IGUI_perks_Strength_Description	提高近战攻击伤害和击退,以及物品栏负重上限,并减少肌肉劳损.
+IGUI_perks_Tailoring_Description	提高衣物修补的品质,以及衣物的防护填充.
+IGUI_perks_Tracking	追踪
+IGUI_perks_Tracking_Description	增加搜寻模式中发现的野生动物痕迹信息,并可以找到更细微的痕迹.
+IGUI_perks_Trapping_Description	提高用陷阱捕捉动物的几率,并可以制作更好的陷阱.
+IGUI_perks_Welding_Description	可以建造简易的金属路障和物件.

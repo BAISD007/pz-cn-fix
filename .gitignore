@@ -1,0 +1,30 @@
+# 生成物 / 本机备份，绝不入库
+out/
+_pzcnfix_out/
+backup/
+dist/
+*.bak
+
+# 字体图集（约 110 MB，放 GitHub Releases 而不是仓库）
+*.fnt
+*.png
+!docs/*.png
+
+# 本地配置
+local.json
+.env
+config.local.*
+game.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

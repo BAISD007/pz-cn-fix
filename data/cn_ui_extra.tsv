@@ -1,0 +1,495 @@
+# Project Zomboid Build 42 - Simplified Chinese UI_CN.txt additions
+# key<TAB>translation   (no game content: keys + our own translations only)
+UI_AcceptWarBtn	接受
+UI_AddBaitToChum	往打窝料里加诱饵
+UI_AttachLure_With	搭配
+UI_CancelWarBtn	取消
+UI_ChangeFishingRodEquip	更换钓竿配置
+UI_Chum_Blank	打窝料基底
+UI_Chum_Normal	普通
+UI_Chum_Strong	强力
+UI_Chum_Weak	微弱
+UI_CloseWarBtn	关闭
+UI_ClothingType_AnkleHolster	踝部枪套
+UI_ClothingType_Boilersuit	连体工作服
+UI_ClothingType_Calf_Left	左小腿 1
+UI_ClothingType_Calf_Left_Texture	左小腿 2
+UI_ClothingType_Calf_Right	右小腿 1
+UI_ClothingType_Calf_Right_Texture	右小腿 2
+UI_ClothingType_Codpiece	护裆
+UI_ClothingType_Cuirass	胸甲
+UI_ClothingType_Elbow_Left	左肘
+UI_ClothingType_Elbow_Right	右肘
+UI_ClothingType_ForeArm_Left	左前臂
+UI_ClothingType_ForeArm_Right	右前臂
+UI_ClothingType_FullRobe	长袍
+UI_ClothingType_FullSuitHeadSCBA	SCBA 头罩
+UI_ClothingType_Gaiter_Left	左绑腿
+UI_ClothingType_Gaiter_Right	右绑腿
+UI_ClothingType_Gorget	护喉
+UI_ClothingType_JacketHat_Bulky	厚重连帽夹克
+UI_ClothingType_JacketSuit	西装外套
+UI_ClothingType_Jacket_Bulky	厚重夹克
+UI_ClothingType_Jacket_Down	斗篷
+UI_ClothingType_Jersey	运动衫
+UI_ClothingType_Knee_Left	左膝
+UI_ClothingType_Knee_Right	右膝
+UI_ClothingType_LeftArm	左臂
+UI_ClothingType_LongDress	长连衣裙
+UI_ClothingType_LongSkirt	长裙
+UI_ClothingType_Neck_Texture	领带
+UI_ClothingType_Outfit	整套服装
+UI_ClothingType_PantsExtra	裤子附件
+UI_ClothingType_Pants_Skinny	紧身裤
+UI_ClothingType_RightArm	右臂
+UI_ClothingType_SCBA	SCBA
+UI_ClothingType_SCBAnotank	无气瓶 SCBA
+UI_ClothingType_Satchel	挎包
+UI_ClothingType_ShortPants	短裤
+UI_ClothingType_ShortsShort	短裤
+UI_ClothingType_ShoulderHolster	肩部枪套
+UI_ClothingType_ShoulderpadLeft	左护肩
+UI_ClothingType_ShoulderpadRight	右护肩
+UI_ClothingType_SportShoulderpad	运动护肩
+UI_ClothingType_SportShoulderpadOnTop	运动护肩
+UI_ClothingType_Thigh_Left	左大腿
+UI_ClothingType_Thigh_Right	右大腿
+UI_ClothingType_TorsoExtraVest	背心附件
+UI_ClothingType_TorsoExtraVestBullet	防弹背心
+UI_ClothingType_VestTexture	马甲
+UI_ClothingType_Webbing	织带
+UI_ConnectToServer_GoogleAuth_Request	输入 Google 验证码:
+UI_ConnectToServer_GoogleAuth_Send	发送
+UI_ConvertWorldFailure	该存档版本过旧,无法转换.
+UI_CorruptedWorldVersion	存档可能已损坏.无法从 map_ver.bin 读取世界版本.
+UI_DisplayOptions_Reticle	目标准星
+UI_GameLoad_PlayerPopulation	玩家人数 %d/%d
+UI_GameLoad_burnedZombiesToday0	今天该服务器没有焚烧僵尸尸体.
+UI_GameLoad_burnedZombiesToday1	今天该服务器焚烧了 1 具僵尸尸体.
+UI_GameLoad_burnedZombiesTodayN	今天该服务器焚烧了 %d 具僵尸尸体.
+UI_GameLoad_fogHeavy	有中重度雾
+UI_GameLoad_fogMedium	有中度雾
+UI_GameLoad_fogNo	没有雾
+UI_GameLoad_humidity	湿度: %.1f %%
+UI_GameLoad_moon0	月相: 新月
+UI_GameLoad_moon1	月相: 娥眉月
+UI_GameLoad_moon2	月相: 上弦月
+UI_GameLoad_moon3	月相: 盈凸月
+UI_GameLoad_moon4	月相: 满月
+UI_GameLoad_moon5	月相: 亏凸月
+UI_GameLoad_moon6	月相: 下弦月
+UI_GameLoad_moon7	月相: 残月
+UI_GameLoad_season1	季节: 春
+UI_GameLoad_season2	季节: 夏
+UI_GameLoad_season3	季节: 夏末
+UI_GameLoad_season4	季节: 秋
+UI_GameLoad_season5	季节: 冬
+UI_GameLoad_temperature	温度: %.1f ºC
+UI_GameLoad_time	当前数据: %d:%d
+UI_GameLoad_windDescription0	无风.烟雾垂直上升,几乎没有飘移.
+UI_GameLoad_windDescription1	风向靠烟雾飘移判断,风向标不动.旗帜几乎不动,只有极轻微的风.
+UI_GameLoad_windDescription10	出现相当严重的结构性破坏,尤其是屋顶.小树可能被吹倒或连根拔起.
+UI_GameLoad_windDescription11	出现大范围破坏.较大的树被吹倒并连根拔起.
+UI_GameLoad_windDescription12	出现严重而广泛的破坏.屋顶可能被掀开,窗户破碎,树木被连根拔起.房车和小型活动房屋被掀翻,行驶中的汽车可能被吹离路面.
+UI_GameLoad_windDescription2	脸上能感觉到风.树叶沙沙作响,细小树枝摆动.普通风向标开始转动.
+UI_GameLoad_windDescription3	树叶和细枝不停摆动.风把地上的枯叶吹起.旗帜完全展开.
+UI_GameLoad_windDescription4	风能吹动小树枝,把地上的尘土和纸片吹起并带着走.
+UI_GameLoad_windDescription5	长满叶子的大树枝和小树开始摇摆.内陆湖和大河上出现波峰.
+UI_GameLoad_windDescription6	大树枝持续摆动.头顶或附近的电线发出呼啸声.撑伞十分困难.
+UI_GameLoad_windDescription7	整棵树都在摇动.逆风行走感到不便.
+UI_GameLoad_windDescription8	风折断细枝和小树枝.风通常会阻碍行走.
+UI_GameLoad_windDescription9	出现结构性破坏,如烟囱盖、屋顶瓦片被吹落,电视天线受损.地上散落大量细枝和断枝.
+UI_GameLoad_windName0	无风
+UI_GameLoad_windName1	软风
+UI_GameLoad_windName10	狂风
+UI_GameLoad_windName11	暴风
+UI_GameLoad_windName12	飓风
+UI_GameLoad_windName2	轻风
+UI_GameLoad_windName3	微风
+UI_GameLoad_windName4	和风
+UI_GameLoad_windName5	清风
+UI_GameLoad_windName6	强风
+UI_GameLoad_windName7	疾风
+UI_GameLoad_windName8	大风
+UI_GameLoad_windName9	烈风
+UI_GameLoad_windSpeed	风: %s, %d 节, %d 公里/小时
+UI_GameLoad_zombieKilledToday0	今天该服务器没有杀死僵尸.
+UI_GameLoad_zombieKilledToday1	今天该服务器杀死了 1 只僵尸.
+UI_GameLoad_zombieKilledTodayN	今天该服务器杀死了 %d 只僵尸.
+UI_GameLoad_zombifiedPlayersToday0	今天该服务器没有幸存者变成行尸.
+UI_GameLoad_zombifiedPlayersToday1	今天该服务器有 1 名幸存者变成了行尸.
+UI_GameLoad_zombifiedPlayersTodayN	今天该服务器有 %d 名幸存者变成了行尸.
+UI_LoadPlayerProfileError	加载玩家配置时出错.
+UI_NewGame_ChallengesDisabled	部分挑战地图在改进期间已被暂时禁用.
+UI_OptionScreen_AimTexture	瞄准纹理
+UI_OptionScreen_CrosshairTexture	准星纹理
+UI_OptionScreen_MaxCrosshairOffset	准星最大偏移
+UI_OptionScreen_NoTargetColor	准星无目标颜色
+UI_OptionScreen_ReticleCameraZoom	准星摄像机缩放
+UI_OptionScreen_ReticleMode	准星模式
+UI_OptionScreen_ReticleMode0	命中几率
+UI_OptionScreen_ReticleMode1	瞄准惩罚
+UI_OptionScreen_ReticleTexture	准星纹理
+UI_OptionScreen_ShowAimTexture	使用瞄准纹理
+UI_OptionScreen_ShowReticleTexture	使用准星纹理
+UI_OptionScreen_ShowValidTargetReticleTexture	使用有效目标准星纹理
+UI_OptionScreen_TargetColor	准星目标颜色
+UI_OptionScreen_ValidTargetReticleTexture	有效目标准星纹理
+UI_Policy_BanReason	你已被该服务器封禁,原因如下:
+UI_Policy_KickReason	你已被该服务器踢出,原因如下:
+UI_Ranch	牧场 %1 %2
+UI_RefuseWarBtn	拒绝
+UI_Reload	重新加载
+UI_ReportBug	报告错误
+UI_ResetLua	重置 Lua
+UI_ServerOptionDesc_AddKey	给玩家一把钥匙.如果不填写用户名,物品会给你自己.钥匙名称可选.用法: /addkey "用户名" "钥匙ID" "名称".
+UI_ServerOptionDesc_AddSteamID	用此命令把一个 SteamID 添加到服务器的 SteamID 允许列表.用法: /addSteamID "steamid"
+UI_ServerOptionDesc_BanIp	封禁 IP.用法 /banip IP
+UI_ServerOptionDesc_GodModPlayer	让一名玩家无敌.用法: /godmodeplayer "用户名" -值, 例 /godmodeplayer "rj" -true (也可以是 -false)
+UI_ServerOptionDesc_InvisiblePlayer	让一名玩家对僵尸隐形.用法: /invisibleplayer "用户名" -值, 例 /invisibleplayer "rj" -true (也可以是 -false)
+UI_ServerOptionDesc_RemoveItem	从自己身上移除物品.数量设为 0 时移除该类型的所有物品.用法: /removeitem "模块.物品" 数量. 例: /removeitem Base.Axe 5
+UI_ServerOptionDesc_RemoveSteamID	用此命令把一个 SteamID 从服务器的 SteamID 允许列表中移除.用法: /removeSteamID "steamid"
+UI_ServerOptionDesc_SetPassword	用此命令修改某个用户的密码.用法: /setpassword "用户名" "新密码"
+UI_ServerOptionDesc_SetTimeSpeed	设置服务器的时间倍率.用法 /setTimeSpeed 周期. 例 /setTimeSpeed 10
+UI_ServerOptionDesc_Statistics	获取服务器统计信息.用法 /stats help 查看详情
+UI_ServerOptionDesc_TeleportPlayer	把一名玩家传送到另一名玩家身边.用法 /teleportplayer "玩家1" "玩家2". 例 /teleportplayer "rj" "toUser"
+UI_ServerOptionDesc_UnBanIp	解除 IP 封禁.用法 /unbanip IP
+UI_ServerOptionDesc_Worldgen	控制完整世界生成器.可用命令 '/worldgen start'、'/worldgen recheck'、'/worldgen stop' 和 '/worldgen status'.
+UI_ServerOption_AnnounceAnimalDeath_tooltip	勾选后,每当有动物死亡都会在聊天栏显示一条全局消息
+UI_ServerOption_AntiCheatChecksum_tooltip	禁用校验和反作弊保护.
+UI_ServerOption_AntiCheatFire_tooltip	禁用火焰检测反作弊保护.
+UI_ServerOption_AntiCheatHit_tooltip	禁用角色受击反作弊保护.
+UI_ServerOption_AntiCheatItem_tooltip	禁用物品检测反作弊保护.
+UI_ServerOption_AntiCheatOwnership_tooltip	禁用所有权反作弊保护.
+UI_ServerOption_AntiCheatPacket_tooltip	禁用数据包检测反作弊保护.
+UI_ServerOption_AntiCheatPermission_tooltip	禁用玩家权限反作弊保护.
+UI_ServerOption_AntiCheatRecipe_tooltip	禁用配方检测反作弊保护.
+UI_ServerOption_AntiCheatSafeHouse_tooltip	禁用安全屋反作弊保护.
+UI_ServerOption_AntiCheatSafety_tooltip	禁用安全系统反作弊保护.
+UI_ServerOption_AntiCheatSpeed_tooltip	禁用角色速度反作弊保护.
+UI_ServerOption_AntiCheatTime_tooltip	禁用游戏时间检测保护.
+UI_ServerOption_AntiCheatXP_tooltip	禁用玩家经验反作弊保护.
+UI_ServerOption_AntiCheat_option1	封禁
+UI_ServerOption_AntiCheat_option2	踢出
+UI_ServerOption_AntiCheat_option3	记录日志
+UI_ServerOption_AntiCheat_option4	禁用
+UI_ServerOption_BadWordListFile_tooltip	违禁词列表文件的路径.每个词占一行
+UI_ServerOption_BadWordPolicy_tooltip	对聊天中发送违禁词的人如何处理: 1 - 封禁, 2 - 踢出, 3 - 把违规记录到数据库, 4 - 禁言
+UI_ServerOption_BadWordReplacement_tooltip	用来替换违禁词的符号或文本
+UI_ServerOption_ClientActionLogs_tooltip	以分号分隔的动作列表,这些动作会被写入服务器日志 ClientActionLogs.txt.
+UI_ServerOption_DisableBurntTowing_tooltip	禁止拖拽烧毁的车辆
+UI_ServerOption_DisableScoreboard_tooltip	禁用记分板.
+UI_ServerOption_DisableTrailerTowing_tooltip	禁止拖拽拖车
+UI_ServerOption_DisableVehicleTowing_tooltip	禁止拖拽车辆
+UI_ServerOption_DiscordChatChannel_tooltip	Discord 聊天频道名称
+UI_ServerOption_DiscordCommandChannel_tooltip	Discord 命令频道名称
+UI_ServerOption_DiscordLogChannel_tooltip	Discord 日志频道名称
+UI_ServerOption_GoodWordListFile_tooltip	允许词列表文件的路径,即使其中包含违禁词也会放行.每个词占一行.
+UI_ServerOption_HideAdminsInPlayerList_tooltip	在玩家列表中隐藏管理员.
+UI_ServerOption_KnockedDownAllowed_tooltip	开发中: 开启此设置可能导致玩家位置显示不同步.
+UI_ServerOption_MultiplayerStatisticsPeriod_tooltip	设置联机统计的更新间隔(秒).数值为 0 时关闭统计.
+UI_ServerOption_PVPLogToolChat_tooltip	PVP 记录到管理员聊天
+UI_ServerOption_PVPLogToolFile_tooltip	PVP 记录到文件
+UI_ServerOption_SafehousePreventsLootRespawn_tooltip	被玩家设为安全屋的建筑内不会刷新物品
+UI_ServerOption_Seed_tooltip	用于生成世界的地图种子.<br>如果要修改,请填入新值并删除存档目录下的 map_worldgen.bin.
+UI_ServerOption_WarAcceptTime_tooltip	接受或拒绝战争的时间(秒).
+UI_ServerOption_WarDuration_tooltip	战争持续时间(秒).
+UI_ServerOption_WarSafehouseHitPoints_tooltip	安全屋生命值上限.
+UI_ServerOption_WarStartDelay_tooltip	战争开始前的等待时间(秒).
+UI_ServerOption_WebhookAddress_tooltip	Slack 传入 Webhook 地址
+UI_ServerSettingGroup_War	战争
+UI_ServerStatus_Downloaded_Workshop_Items_Count	创意工坊项目数 %1
+UI_ServerStatus_Downloaded_Workshop_Items_Progress	已下载 %1 / %2
+UI_ServerStatus_Downloaded_Workshop_Reinstall_Progress	正在重新安装 %1 / %2
+UI_ServerStatus_Downloading_Workshop_Items	正在下载创意工坊项目
+UI_ServerStatus_Initing_Checksum	正在初始化校验和
+UI_ServerStatus_Loading_Assets	正在加载资源
+UI_ServerStatus_Loading_Sandbox_Vars	正在加载沙盒变量
+UI_ServerStatus_Requesting_Workshop_Item_Details	正在请求创意工坊项目详情
+UI_ServerTime	服务器时间 : %1 ; 最后延迟 : %2
+UI_Server_Passwort_Hint	[点击修改已保存的密码]
+UI_ValidationFailed	检测到异常数据包或可疑行为.
+UI_WithChum	使用打窝料
+UI_advWorld_X_label	区块 X
+UI_advWorld_Y_label	区块 Y
+UI_advWorld_random_btn	随机种子
+UI_advWorld_seed_label	种子
+UI_btn_add	添加
+UI_btn_advanced	高级
+UI_btn_del	删除
+UI_btn_help	帮助
+UI_btn_share	分享
+UI_characreation_Type	类型
+UI_characreation_colorpicker_brightness	亮度
+UI_characreation_colorpicker_hue	色相
+UI_characreation_colorpicker_saturation	饱和度
+UI_characreation_negativeTraitOffset	负面特性点数补偿
+UI_characreation_playdemovoice	试听语音
+UI_characreation_voice	语音
+UI_characreation_voicepitch	音调
+UI_characreation_voicetype	音色
+UI_credits_header_FormosaSeniorProducer	高级制作人
+UI_mainscreen_multiplayer	多人游戏
+UI_mainscreen_seed	种子: %1
+UI_mapspawn_random	随机
+UI_mods_MapsOrder	地图顺序
+UI_mods_SavePrompt	保存此模组预设
+UI_mods_backAccept	要保存对这组模组的更改吗?
+UI_mods_openModUrl	要打开该模组的网站吗?
+UI_mods_preset_choose	-- 选择预设 --
+UI_mods_preset_disableAll	-- 全部禁用 --
+UI_mods_preset_enableAll	-- 全部启用 --
+UI_modselector_MissedModsTitle	缺失的模组
+UI_modselector_ModHelpTitle	模组指引
+UI_modselector_UnknownMod	未知模组
+UI_modselector_auto	自动
+UI_modselector_changelog	更新日志
+UI_modselector_conflictsFor	冲突对象:
+UI_modselector_filter	过滤:
+UI_modselector_help1	 <H2> 重要提示 <LINE> <TEXT> Build 41 及更早版本制作的模组必须更新后才能用于 Build 42.要运行旧版本模组,你需要在调试模式下开启"显示不支持的模组"选项. <BR> 
+UI_modselector_help2	 <H2> 模组列表与过滤 <LINE> <TEXT> 左侧是模组列表.你可以把它过滤为只显示已启用的模组或收藏的模组,也可以按名称、ModID 或 WorkshopID 搜索.点击复选框即可启用模组,点击星标可加入收藏. <BR> 
+UI_modselector_help3	 <H2> 预设与分享模组列表 <LINE> <TEXT> 要创建模组预设,先开启你想放入预设的模组,然后点击模组列表下方的"保存".点击"删除"会删除该预设. <LINE> 要分享你创建的预设,选中一个预设并点击"分享",之后一行包含这些模组的文本会被复制到剪贴板.你可以把这行文本发给别人,让对方用"添加"按钮把模组加入自己的游戏. <BR> 
+UI_modselector_help4	 <H2> 模组说明 <LINE> <TEXT> 屏幕右侧是所选模组的说明,包含模组截图和参数说明.其中也可能有会在浏览器中打开的链接,以及模组依赖或与其它模组不兼容的链接. <BR> 
+UI_modselector_help5	 <H2> 模组顺序 <LINE> <TEXT> 通过"模组顺序"按钮可以改变模组的加载顺序.可以自动排序,也可以用鼠标(点击移动图标并拖动)或手柄手动调整.越靠上的模组越先加载.调整顺序有时能解决报错问题. <BR> 
+UI_modselector_help6	 <H2> 地图顺序 <LINE> <TEXT> 当地图发生冲突时,"地图顺序"按钮会变为可用.顺序越靠上的地图优先级越高,会覆盖靠下的地图.
+UI_modselector_incompatibleWith	不兼容:
+UI_modselector_mapLoadOrder	地图加载顺序
+UI_modselector_missedMods	缺失的模组:
+UI_modselector_modLoadOrder	模组加载顺序
+UI_modselector_modTemplateWarn	这是给模组作者使用的模板,最好不要使用.\n要启用该模组吗?
+UI_modselector_orderFor	排序依据:
+UI_modselector_showEnabledMods	只显示已启用的模组
+UI_modselector_showUnsupportedMods	显示不支持的模组
+UI_modselector_title	标题
+UI_modselector_usupportText1	为低于 
+UI_modselector_usupportText2	 的版本创建的模组只能在调试模式下运行.
+UI_optionscreen_ActionProgressBarSize	动作进度条大小
+UI_optionscreen_ActionProgressBarSize1	100%
+UI_optionscreen_ActionProgressBarSize2	200%
+UI_optionscreen_ActionProgressBarSize3	300%
+UI_optionscreen_ActionProgressBarSize4	400%
+UI_optionscreen_AutoRevealPrintMediaMapLocations	自动标记印刷品上的地图位置
+UI_optionscreen_AutoRevealPrintMediaMapLocations_tt	阅读宣传册或传单后自动在地图上标记地点.关闭后,需要在宣传册或传单窗口中点击按钮才会标记.
+UI_optionscreen_ColorblindPatterns	色盲图案
+UI_optionscreen_ColorblindPatterns_tt	在游戏内地图的建筑物上使用带图案的纹理.
+UI_optionscreen_ControllerButtonStyle	手柄按键样式
+UI_optionscreen_ControllerButtonStyle1	Xbox
+UI_optionscreen_ControllerButtonStyle2	PlayStation
+UI_optionscreen_CycleContainerKey4	Command
+UI_optionscreen_CycleContainerKey5	Command+Shift
+UI_optionscreen_FontSize5	随窗口高度缩放
+UI_optionscreen_HighResPlacedItems	高分辨率放置物品
+UI_optionscreen_MacOSIgnoreMouseWheelAcceleration	MacOS: 忽略鼠标滚轮加速
+UI_optionscreen_MacOSMapHorizontalMouseWheelToVertical	MacOS: 把水平滚轮当作垂直滚轮
+UI_optionscreen_MoodleSize	状态图标大小
+UI_optionscreen_MoodleSize0	32
+UI_optionscreen_MoodleSize1	48
+UI_optionscreen_MoodleSize2	64
+UI_optionscreen_MoodleSize3	80
+UI_optionscreen_MoodleSize4	96
+UI_optionscreen_MoodleSize5	128
+UI_optionscreen_MoodleSize6	随字体大小缩放
+UI_optionscreen_MoodleSize_tt	更改状态图标的显示大小
+UI_optionscreen_PrecipitationSpeedMultiplier	降水速度倍率
+UI_optionscreen_RagdollMaxActiveRagdolls	最大同时激活布娃娃数
+UI_optionscreen_RagdollMaxActiveRagdolls_tool_tip	设置同时进行的布娃娃物理模拟数量上限.数值越低性能越好.
+UI_optionscreen_RagdollUsePhysicsHitReaction	使用物理受击反应
+UI_optionscreen_RagdollUsePhysicsHitReaction_tool_tip	联机模式下会自动取消勾选,因为联机暂不支持布娃娃.\n返回单人游戏时别忘了重新勾选!
+UI_optionscreen_ScreenFilter	屏幕过滤
+UI_optionscreen_ScreenFilterLinear	线性
+UI_optionscreen_ScreenFilterNearest	最近邻
+UI_optionscreen_ScreenFilter_tt	设置绘制场景时所使用的纹理过滤方式.
+UI_optionscreen_SidebarSize	侧边栏图标大小
+UI_optionscreen_SidebarSize_tt	更改左侧侧边栏图标的显示大小
+UI_optionscreen_StreamerMode	主播模式
+UI_optionscreen_StreamerMode_tt	修改车辆警笛音效,以避免版权纠纷.
+UI_optionscreen_UI	用户界面
+UI_optionscreen_binding_AnimalRadialMenu	动物轮盘菜单
+UI_optionscreen_binding_Attack/Click	攻击/点击
+UI_optionscreen_binding_Brake	刹车
+UI_optionscreen_binding_Building UI	 切换建造界面
+UI_optionscreen_binding_CruiseControl	定速巡航
+UI_optionscreen_binding_DropBothHeldItems	丢弃双手持有的物品
+UI_optionscreen_binding_DropBothHeldItemsAndWornBag	丢弃手持物品和背包
+UI_optionscreen_binding_DropPrimaryHeldItem	丢下主手物品
+UI_optionscreen_binding_DropSecondaryHeldItem	丢下副手物品
+UI_optionscreen_binding_DropWornBag	丢下背包
+UI_optionscreen_binding_GrabCorpse	拖拽尸体
+UI_optionscreen_binding_Hotbar 6	快捷栏 6
+UI_optionscreen_binding_Hotbar 7	快捷栏 7
+UI_optionscreen_binding_Hotbar 8	快捷栏 8
+UI_optionscreen_binding_ReleaseRope	松开攀爬中的绳子
+UI_optionscreen_binding_SharpenWeapon	打磨武器
+UI_optionscreen_do_bink_video_effects	视频效果
+UI_optionscreen_enableDyslexicFont	启用阅读障碍字体
+UI_optionscreen_enableDyslexicFont_tt	启用后,如果你的语言受支持,文本将使用 OpenDyslexia 字体显示.
+UI_optionscreen_enableLightSensitivity	启用光敏模式
+UI_optionscreen_enableLightSensitivity_tt	启用后,暴风雨中不会出现闪电.
+UI_optionscreen_focusloss	失去焦点时暂停
+UI_optionscreen_melee_outline	近战目标轮廓
+UI_optionscreen_melee_outline_tt	高亮显示近战目标.
+UI_optionscreen_showCraftingXP	显示制作经验
+UI_optionscreen_showWelcomeMessage	显示欢迎信息
+UI_optionscreen_view_cone_opacity	视野锥不透明度
+UI_optionscreen_worldItemHighlightColor	高亮地上物品的颜色
+UI_prof_Tailor	裁缝
+UI_prof_rancher	牧场主
+UI_profdesc_Tailor	
+UI_quick_tip1	把车窗摇下来后,你可以在车内开枪.
+UI_quick_tip10	用手表或时钟定个闹钟,免得自己睡过头.提前提醒一下——声音可能引来僵尸.
+UI_quick_tip11	冲刺会消耗体力,还会引来更多僵尸.
+UI_quick_tip12	按 C 蹲下潜行.贴着墙移动时,角色会蹲得更低,更难被发现.
+UI_quick_tip13	有些刀可以做"刺颚"动作,瞬间杀死僵尸.不过要当心——刀也可能卡在僵尸身上.
+UI_quick_tip14	车钥匙有时会掉在附近的地上或房子里,也可能在附近僵尸的身上.
+UI_quick_tip15	在室内启动发电机,废气会把你熏死.
+UI_quick_tip16	使用干净的绷带可以避免伤口感染(不是诺克斯病毒感染).可以用消毒剂或开水给绷带消毒.
+UI_quick_tip17	把物品放进腰带或枪套能更快取用,还能减轻重量.
+UI_quick_tip18	堆肥箱里的腐烂食物会慢慢变成堆肥,可以用来给作物施肥.
+UI_quick_tip19	汽车喇叭或警笛声会吸引很大范围内的僵尸.
+UI_quick_tip2	老是误触喊叫?可以在选项菜单里改键位.
+UI_quick_tip20	地上的东西丢了?用"调查区域"菜单里的搜寻模式把它找回来.
+UI_quick_tip21	作物会被僵尸踩坏,所以要种在安全的地方.
+UI_quick_tip22	用记事本、日志之类的东西记录想法、列清单,或者写首诗.随你高兴.
+UI_quick_tip23	角色会自动喝主背包里未受污染的水.可以在选项的"辅助功能"页里开关.
+UI_quick_tip24	有些僵尸身上带着前任幸存者绘制的地图.它们未必真能带你找到宝藏.
+UI_quick_tip25	蹲下时按喊叫键会变成低语,吸引僵尸的范围比喊叫小.
+UI_quick_tip26	装备纸巾或卫生纸可以减弱你打喷嚏和咳嗽的声音.
+UI_quick_tip27	觉得这片区域没有僵尸?喊一嗓子确认一下.
+UI_quick_tip28	鞋子会影响你的移动速度、踩踏伤害和移动时发出的噪音.
+UI_quick_tip29	把受污染的水煮开后就能安全饮用.受污染的水可以直接浇灌作物,没有惩罚.
+UI_quick_tip3	不小心关掉了小地图?把鼠标移到左上角的地图图标上,再点击弹出的第二个地图图标.
+UI_quick_tip30	穿着脏衣服或带血的衣服更容易造成伤口感染(但不是诺克斯病毒感染).用水洗,或者丢进洗衣机.
+UI_quick_tip31	觉得普通僵尸太慢?可以在沙盒设置里开启奔跑僵尸.
+UI_quick_tip32	想要不一样的挑战?玩沙盒模式,自己找乐子.
+UI_quick_tip33	食物放进冰箱(前提是有电)可以冷冻保存更久.大多数冷冻食物要先解冻才能吃.
+UI_quick_tip34	潜行比走路更耗体力,但更不容易被发现.
+UI_quick_tip35	阅读传单时点击下方的按钮,几乎总能在地图上标记出一个具体地点.
+UI_quick_tip36	用左上角的"木制储物柜"图标可以捡起或拆解家具.
+UI_quick_tip37	使用长柄近战武器会比短武器更快让你力竭.
+UI_quick_tip38	你知道吗,零售录像带的背面也是可以读的.
+UI_quick_tip39	装备乐器、口哨或扩音器,可以让你的喊叫传得更远或者变成别的音效.
+UI_quick_tip4	小心背后!从背后被僵尸袭击几乎必死无疑.
+UI_quick_tip40	站在大量尸体附近会让你生病.
+UI_quick_tip41	想玩节奏快、动作多的短局?试试挑战模式里的"背水一战".
+UI_quick_tip42	记得检查拐角.
+UI_quick_tip43	把物品放进已装备的背包可以减轻重量.
+UI_quick_tip44	放进畜牧区里的动物会自动归属该区域,即使围栏没建好也不会跑出去.
+UI_quick_tip45	小型动物可以直接抱起来搬运.大型动物必须用绳子牵,可以拴在柱子或树上.
+UI_quick_tip46	你和动物相处越久,它就越接受你.抚摸也有帮助(还能降低你的压力).
+UI_quick_tip47	动物会吃自己区域里的食物,不管是饲料槽里的还是直接放在地上的.
+UI_quick_tip48	动物可以喝水坑和水槽里的水,也可以直接用容器喂水.
+UI_quick_tip49	有些物品只能在桌子上制作.
+UI_quick_tip5	如果你死了,可以用新角色在同一个世界里继续玩.
+UI_quick_tip50	技能等级足够高时,有些配方会自动学会.
+UI_quick_tip51	手边有制作配方的话,可以降低一级技能要求来制作该物品.
+UI_quick_tip52	提升力量和/或对应武器技能,可以减轻近战武器造成的手臂劳损.
+UI_quick_tip53	在背包里双击衣物或武器即可穿上或装备.
+UI_quick_tip6	通过健康菜单里的锻炼选项提升力量和体格,或者背着沉重的东西多跑动.
+UI_quick_tip7	可以用录像带补看你错过的电视节目.
+UI_quick_tip8	从车里抽汽油需要一根软管和合适的容器.
+UI_quick_tip9	不想体重变化太大,就要保持饮食多样化.
+UI_quick_tip_joke1	也可以试试《我的世界》!
+UI_quick_tip_joke10	西点镇由拓荒者詹姆斯·扬于 1789 年建立.
+UI_quick_tip_joke11	斯皮福不应该被当作神明来崇拜.
+UI_quick_tip_joke12	你去过"PS 黛莉拉"号吗?
+UI_quick_tip_joke13	你去过罗斯伍德监狱吗?
+UI_quick_tip_joke14	你去过欧文顿赛车场吗?
+UI_quick_tip_joke15	你去过路易斯维尔美术馆吗?
+UI_quick_tip_joke16	你去过桑德兰山疗养院吗?
+UI_quick_tip_joke17	你去过布伦福德羽毛庄园吗?
+UI_quick_tip_joke18	你去过路易斯维尔国际机场吗?
+UI_quick_tip_joke19	你去过十字路口购物中心吗?
+UI_quick_tip_joke2	路易斯维尔由乔治·罗杰斯·克拉克于 1778 年建立.
+UI_quick_tip_joke20	你去过西枫乡村俱乐部吗?
+UI_quick_tip_joke21	你去过暗柳湖吗?
+UI_quick_tip_joke22	你去过路易斯维尔布鲁瑟工厂吗?
+UI_quick_tip_joke23	你去过绯红橡树酿酒厂吗?
+UI_quick_tip_joke24	永远要知道自己的毛巾放在哪.
+UI_quick_tip_joke25	"电讯玉米"只是都市传说.
+UI_quick_tip_joke26	他们来找你了.
+UI_quick_tip_joke27	你背后什么都没有.
+UI_quick_tip_joke3	1962 到 1993 年间共上映了十六部约翰·斯派罗系列电影.其中《诺克斯堡行动》就是在附近拍摄的!
+UI_quick_tip_joke4	90% 的死亡都源于不必要的冒险.
+UI_quick_tip_joke5	尽量别把自己点着.
+UI_quick_tip_joke6	漂白剂是清洁用品,不应该拿来喝.
+UI_quick_tip_joke7	当心洗手间.
+UI_quick_tip_joke8	你打不到那架直升机.
+UI_quick_tip_joke9	恐怖小说作家阿贝·奎恩光在肯塔基州就卖出了上百万本书!
+UI_sandbox_searchEntryBoxWord	搜索
+UI_servers_Map	地图:
+UI_servers_QR_connecting	正在连接...
+UI_servers_QR_send_failed	注册失败.Google 密钥已存在
+UI_servers_QR_send_success	QR 密钥注册成功
+UI_servers_QR_sending_key	正在发送密钥...
+UI_servers_accountAlreadyExist	账号已存在.
+UI_servers_accountNameBadWord	%1 不能用作用户名.
+UI_servers_accountNameTooShort	用户名太短.
+UI_servers_account_name	账号名:
+UI_servers_add_new_account	添加新账号
+UI_servers_add_to_favourites	添加到收藏
+UI_servers_auth_google	Google 验证
+UI_servers_auth_password	密码
+UI_servers_auth_two_factor	双重验证
+UI_servers_auth_type	验证类型:
+UI_servers_authentication_type	验证类型:
+UI_servers_back	返回
+UI_servers_btn_filters	过滤器
+UI_servers_button_connect	连接
+UI_servers_button_delete	删除
+UI_servers_button_edit	编辑
+UI_servers_cancel	取消
+UI_servers_close_QR_popup	关闭
+UI_servers_close_filters	关闭
+UI_servers_connect	连接
+UI_servers_default_name	张三
+UI_servers_delete_account	删除账号
+UI_servers_enterServerPwd	输入 %1 的密码
+UI_servers_filter	过滤...
+UI_servers_filters_Label	服务器过滤
+UI_servers_ip_domain	IP/域名:
+UI_servers_last_logout	上次登出 
+UI_servers_last_update	上次更新: 
+UI_servers_login	用户名:
+UI_servers_minutes	 分钟
+UI_servers_minutes_ago	 分钟前
+UI_servers_password	密码:
+UI_servers_port	端口: 
+UI_servers_refresh_timer	刷新 %d
+UI_servers_register_QR	注册 QR
+UI_servers_remember_password	记住密码
+UI_servers_remove_from_favourites	从收藏中移除
+UI_servers_remove_server	从收藏中移除服务器
+UI_servers_send_QR	发送
+UI_servers_send_QR_Label	扫描二维码并发送到服务器
+UI_servers_serverNb	服务器: %1 / %2
+UI_servers_server_name	服务器名称:
+UI_servers_server_password	服务器密码:
+UI_servers_serveripmessage	你正在通过 Steam 中继连接.服务器管理员无法获取你的 IP 地址.
+UI_servers_serveripwarning	你正在使用直连.服务器管理员可能获取你的 IP 地址.
+UI_servers_showFullServer	显示已满的服务器
+UI_servers_showModdedServer	显示有模组的服务器
+UI_servers_showVanillaServer	显示原版服务器
+UI_servers_sortLabel	排序方式: 
+UI_servers_sortType_Name	名称 
+UI_servers_sortType_Ping	延迟 
+UI_servers_sortType_Players	人数 
+UI_servers_time_played	游玩时间 
+UI_trait_Artisan	工匠
+UI_trait_ArtisanDesc	更擅长陶艺和玻璃工艺.
+UI_trait_Crafty	手巧
+UI_trait_CraftyDesc	制作类技能获得的经验更多.
+UI_trait_Inventive	发明家
+UI_trait_InventiveDesc	从物品中研究配方、或自动学会配方所需的技能等级更低.
+UI_trait_Mason	石匠
+UI_trait_MasonDesc	更擅长建造石制和砖制建筑.
+UI_trait_MetalWorkerDesc	可以焊接采集到的金属,用来制作物品和路障.
+UI_trait_Whittler	木雕师
+UI_trait_WhittlerDesc	可以雕刻木材和骨头,制作各类物品.
+UI_trait_WildernessKnowledge	野外知识
+UI_trait_WildernessKnowledgeDesc	可以找到药草,并用它们制作药物和药膏,还能制作简单的石制和骨制工具.
+UI_trait_weightgain	新陈代谢慢
+UI_trait_weightgaindesc	体质上容易增重.初始带有超重特性.
+UI_trait_weightloss	新陈代谢快
+UI_trait_weightlossdesc	体质上容易变瘦.初始带有体重过轻特性.
+UI_worldscreen_ModNotFound	缺少模组.继续加载可能会损坏你的存档.仍要加载吗?
+UI_worldscreen_SavefileOld42_13	 <H1> <LINE> <ORANGE> 警告: <LINE> <LINE> <RGB:1,1,1> 当前的多人/单人存档可能不兼容. <LINE> <LINE> 转换过程可能破坏游戏内容. <LINE> <LINE> 继续前请先备份存档. <LINE> <LINE> 要转换存档吗?
