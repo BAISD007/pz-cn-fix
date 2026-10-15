@@ -28,8 +28,8 @@ Remove-Item (Join-Path $Out "stage") -Recurse -Force -ErrorAction SilentlyContin
 New-Item -ItemType Directory -Force -Path $stage | Out-Null
 
 $fonts = Join-Path $Game "media\fonts"
-# 顶层共享档
-Get-ChildItem $fonts -File | Where-Object { $_.Name -like "zomboid*Chinese.*" } |
+# 顶层共享档（注意：.fnt 和图集 _NN.png 都要，所以通配符不能带点）
+Get-ChildItem $fonts -File | Where-Object { $_.Name -like "zomboid*Chinese*" } |
     ForEach-Object { Copy-Item $_.FullName (Join-Path $stage $_.Name) -Force }
 # CN 的 4 个缩放档
 foreach ($s in @("1x", "2x", "3x", "4x")) {
@@ -37,7 +37,7 @@ foreach ($s in @("1x", "2x", "3x", "4x")) {
     if (-not (Test-Path $src)) { continue }
     $dst = Join-Path $stage "CN\$s"
     New-Item -ItemType Directory -Force -Path $dst | Out-Null
-    Get-ChildItem $src -File | Where-Object { $_.Name -like "zomboid*Chinese.*" } |
+    Get-ChildItem $src -File | Where-Object { $_.Name -like "zomboid*Chinese*" } |
         ForEach-Object { Copy-Item $_.FullName (Join-Path $dst $_.Name) -Force }
 }
 

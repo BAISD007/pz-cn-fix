@@ -43,6 +43,15 @@ python tools\build_cn_fonts.py --mod
 python tools\apply_cn_patch.py --game "D:\Steam\steamapps\common\ProjectZomboid"
 ```
 
+## 下载
+
+- **字体包（78 MB，不需要 Python）** →
+  [Releases · latest](https://github.com/BAISD007/pz-cn-fix/releases/latest)
+  已生成好的 15 套位图字体；解压后把 `media` 覆盖到游戏根目录，或解压到
+  `%USERPROFILE%\Zomboid\mods\PZChineseFontPatch\` 并在游戏里启用。
+- **翻译补全** → 本仓库的 `data/` + `tools/`（见上面快速开始）。
+  这里**不再分发**游戏原有的文本表，而是用脚本把译文追加到你本机的副本里。
+
 还原：
 
 ```powershell
